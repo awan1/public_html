@@ -20,24 +20,21 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<!--\nTEMPLATE DESCRIPTION\n~~~~~~~~~~~~~~~~~~~~\nDesign by Free CSS Templates\nhttp://www.freecsstemplates.org\nReleased for free under a Creative Commons Attribution 2.5 License\n\nName       : Stratagem \nDescription: A two-column, fixed-width design with dark color scheme.\nVersion    : 1.0\nReleased   : 20130707\n\n-->\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<title>Adrian Wan</title>\n<meta name=\"keywords\" content=\"\" />\n<meta name=\"description\" content=\"\" />\n<link href=\"default.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\n<link href=\"fonts.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\n<!--[if IE 6]>\n<link href=\"default_ie6.css\" rel=\"stylesheet\" type=\"text/css\" />\n<![endif]-->\n</head>\n<body>\n<div id=\"wrapper\">\n  <div id=\"menu-wrapper\">\n    <div id=\"menu\" class=\"container\">\n      <ul>\n        <li class=\"current_page_item\"><a href=\"#\">Homepage</a></li>\n        <li><a href=\"about.html\">About</a></li>\n        <li><a href=\"projects.html\">Projects</a></li>\n        <li><a href=\"resume.html\">Resum&eacute;</a></li>\n        <li><a href=\"contact.html\">Contact</a></li>\n      </ul>\n    </div>\n    <!-- end #menu --> \n  </div>\n  <div id=\"header-wrapper\">\n    <div id=\"header\" class=\"container\">\n      <div id=\"logo\">\n        <h1><a href=\"#\">Adrian Wan</a></h1>\n        <p>Computer Science & Physics, Swarthmore College 2015</p>\n      </div>\n    </div>\n  </div>\n  <!--\n  <div id=\"banner\" class=\"container\"> <a href=\"#\" class=\"image\"><img src=\"images/pic01.jpg\" alt=\"\" /></a> </div>\n  -->\n  <div id=\"portfolio-wrapper\">\n    <div id=\"portfolio\" class=\"container\">\n      <div id=\"column1\">\n        <div class=\"title\">\n          <h2>Suspendisse lacus</h2>\n        </div>\n        <p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n        <a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n      <div id=\"column2\">\n        <div class=\"title\">\n          <h2>Fusce ultrices</h2>\n        </div>\n        <p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n        <a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n      <div id=\"column3\">\n        <div class=\"title\">\n          <h2>Etiam posuere</h2>\n        </div>\n        <p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n        <a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n      <div id=\"column4\">\n        <div class=\"title\">\n          <h2>Mauris vulputate</h2>\n        </div>\n        <p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n        <a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n    </div>\n  </div>\n</div>\n</div>\n<div id=\"copyright\" class=\"container\">\n  <p>Copyright (c) 2014 Adrian Wan. All rights reserved. | Photos by <a href=\"http://fotogrph.com/\">Fotogrph</a> | Design by <a href=\"http://www.freecsstemplates.org/\" rel=\"nofollow\">FreeCSSTemplates.org</a>.</p>\n</div>\n</body>\n</html>\n",
+			"contents": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<!--\nTEMPLATE DESCRIPTION\n~~~~~~~~~~~~~~~~~~~~\nDesign by Free CSS Templates\nhttp://www.freecsstemplates.org\nReleased for free under a Creative Commons Attribution 2.5 License\n\nName       : Stratagem \nDescription: A two-column, fixed-width design with dark color scheme.\nVersion    : 1.0\nReleased   : 20130707\n\n-->\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<title>Adrian Wan</title>\n<meta name=\"keywords\" content=\"\" />\n<meta name=\"description\" content=\"\" />\n<link href=\"default.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\n<link href=\"fonts.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\n<!--[if IE 6]>\n<link href=\"default_ie6.css\" rel=\"stylesheet\" type=\"text/css\" />\n<![endif]-->\n</head>\n<body>\n<div id=\"wrapper\">\n  <div id=\"menu-wrapper\">\n    <div id=\"menu\" class=\"container\">\n      <ul>\n        <li class=\"current_page_item\"><a href=\"#\">Homepage</a></li>\n        <li><a href=\"about.html\">About</a></li>\n        <li><a href=\"projects.html\">Projects</a></li>\n        <li><a href=\"resume.html\">Resum&eacute;</a></li>\n        <li><a href=\"contact.html\">Contact</a></li>\n      </ul>\n    </div>\n    <!-- end #menu --> \n  </div>\n  <div id=\"header-wrapper\">\n    <div id=\"header\" class=\"container\">\n      <div id=\"logo\">\n        <h1><a href=\"#\">Adrian Wan</a></h1>\n        <p>Computer Science & Physics, Swarthmore College 2015</p>\n      </div>\n    </div>\n  </div>\n  <!--\n  <div id=\"banner\" class=\"container\"> <a href=\"#\" class=\"image\"><img src=\"images/pic01.jpg\" alt=\"\" /></a> </div>\n  -->\n  <div id=\"portfolio-wrapper\">\n    <div id=\"portfolio\" class=\"container\">\n      <div id=\"column1\">\n        <div class=\"title\">\n          <h2>Suspendisse lacus</h2>\n        </div>\n        <p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n        <a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n      <div id=\"column2\">\n        <div class=\"title\">\n          <h2>Fusce ultrices</h2>\n        </div>\n        <p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n        <a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n      <div id=\"column3\">\n        <div class=\"title\">\n          <h2>Etiam posuere</h2>\n        </div>\n        <p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n        <a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n      <!--\n      <div id=\"column4\">\n        <div class=\"title\">\n          <h2>Mauris vulputate</h2>\n        </div>\n        <p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n        <a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n      -->\n    </div>\n  </div>\n</div>\n</div>\n<div id=\"copyright\" class=\"container\">\n  <p>Copyright (c) 2014 Adrian Wan. All rights reserved. Design by <a href=\"http://www.freecsstemplates.org/\" rel=\"nofollow\">FreeCSSTemplates.org</a>.</p>\n</div>\n</body>\n</html>\n",
 			"file": "index.html",
-			"file_size": 3208,
-			"file_write_time": 130388990876726202,
+			"file_size": 3359,
+			"file_write_time": 130389009417125649,
 			"settings":
 			{
-				"buffer_size": 3423,
-				"line_ending": "Windows"
+				"buffer_size": 3301,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "\nfhtml, body\n{\n	height: 100%;\n}\n\nbody\n{\n	margin: 0px;\n	padding: 0px;\n	background: #262116;\n	font-family: 'Source Sans Pro', sans-serif;\n	font-size: 12pt;\n	font-weight: 300;\n	color: #363636;\n}\n\nh1, h2, h3\n{\n	margin: 0;\n	padding: 0;\n}\n\np, ol, ul\n{\n	margin-top: 0px;\n}\n\np\n{\n	line-height: 190%;\n}\n\nstrong\n{\n}\n\na\n{\n	color: #171717;\n}\n\na:hover\n{\n	text-decoration: none;\n}\n\na img\n{\n	border: none;\n}\n\n.image\n{\n	display: inline-block;\n}\n\n.image img\n{\n	display: block;\n	width: 100%;\n}\n\n.image-full\n{\n	display: block;\n	width: 100%;\n	margin: 0 0 2em 0;\n}\n\n.image-left\n{\n	float: left;\n	margin: 0 2em 2em 0;\n}\n\n.image-centered\n{\n	display: block;\n	margin: 0 0 2em 0;\n}\n\n.image-centered img\n{\n	margin: 0 auto;\n	width: auto;\n}\n\nhr\n{\n	display: none;\n}\n\n/*********************************************************************************/\n/* List Styles                                                                   */\n/*********************************************************************************/\n\n	ul.style1\n{\n	margin: 0;\n	padding: 0;\n	list-style: none;\n}\n\nul.style1 li\n{\n	border-top: 1px solid rgba(0,0,0,.1);\n	padding: 0.80em 0;\n}\n\nul.style1 li:first-child\n{\n	border-top: 0;\n	padding-top: 0;\n}\n\nul.style2\n{\n	margin: 0;\n	padding: 0;\n	list-style: none;\n}\n\nul.style2 li\n{\n	border-top: 1px solid rgba(0,0,0,.1);\n	padding: 0.80em 0;\n}\n\nul.style2 li:first-child\n{\n	border-top: 0;\n	padding-top: 0;\n}\n\n/** LIST STYLE 3 */\n\nul.style3 {\n	margin: 0px;\n	padding: 10px 0px 0px 0px;\n	list-style: none;\n}\n\nul.style3 li {\n	clear: both;\n	margin-bottom: 25px;\n	padding: 40px 0px 20px 0px;\n	border-top: 1px solid #C2C2C2;\n}\n\nul.style3 h3 {\n	padding-bottom: 5px;\n	font-size: 1.2em;\n	color: #262116;\n}\n\nul.style3 p {\n	line-height: 150%;\n}\n\nul.style3 .button-style {\n	float: left;\n	margin-top: 0px;\n}\n\nul.style3 img\n{\n	float: left;\n	margin-right: 3em;\n}\n\nul.style3 .first {\n	padding-top: 0px;\n	border-top: none;\n	box-shadow: none;\n}\n/*********************************************************************************/\n/* Social Icon Styles                                                            */\n/*********************************************************************************/\n\n	ul.contact\n{\n	margin: 0;\n	padding: 1.5em 0em 2.5em 0em;\n	list-style: none;\n}\n\nul.contact li\n{\n	display: inline-block;\n	padding: 0em 0.30em;\n	font-size: 1em;\n}\n\nul.contact li span\n{\n	display: none;\n	margin: 0;\n	padding: 0;\n}\n\nul.contact li a\n{\n	color: #FFF;\n}\n\nul.contact li a:before\n{\n	display: inline-block;\n	background: #3f3f3f;\n	width: 40px;\n	height: 40px;\n	line-height: 40px;\n	border-radius: 20px;\n	text-align: center;\n	color: #FFFFFF;\n}\n\nul.contact li a.icon-twitter:before\n{\n	background: #2DAAE4;\n}\n\nul.contact li a.icon-facebook:before\n{\n	background: #39599F;\n}\n\nul.contact li a.icon-dribbble:before\n{\n	background: #C4376B;\n}\n\nul.contact li a.icon-tumblr:before\n{\n	background: #31516A;\n}\n\nul.contact li a.icon-rss:before\n{\n	background: #F2600B;\n}\n\n/*********************************************************************************/\n/* Heading Titles                                                                */\n/*********************************************************************************/\n\n	.title\n{\n	margin-bottom: 2em;\n	text-transform: uppercase;\n}\n\n.title h2\n{\n	letter-spacing: 0.20em;\n	font-weight: 700;\n	font-size: 2em;\n	color: #262116;\n}\n\n.title .byline\n{\n	letter-spacing: 0.15em;\n	text-transform: uppercase;\n	font-weight: 400;\n	font-size: 0.90em;\n	color: #6F6F6F;\n}\n\n/** WRAPPER */\n\n#wrapper\n{\n	border-bottom: 1px solid rgba(0,0,0,.1);\n	background: #FFFFFF url(images/bg01.png) repeat;\n}\n\n#footer-wrapper\n{\n	border-bottom: 1px solid rgba(0,0,0,.1);\n}\n\n.container\n{\n	width: 1200px;\n	margin: 0px auto;\n}\n\n.clearfix\n{\n	clear: both;\n}\n\n/*********************************************************************************/\n/* Wrappers                                                                      */\n/*********************************************************************************/\n\n#header-wrapper\n{\n	overflow: hidden;\n	background: #262116;\n}\n\n/*********************************************************************************/\n/* Header                                                                        */\n/*********************************************************************************/\n\n	#header\n{\n	position: relative;\n	overflow: hidden;\n	text-align: center;\n}\n\n/*********************************************************************************/\n/* Logo                                                                          */\n/*********************************************************************************/\n\n	#logo\n{\n	width: 500px;\n	margin: 0 auto;\n	padding: 2em 0em;\n	text-transform: uppercase;\n}\n\n#logo h1\n{\n	letter-spacing: 0.10em;\n	font-size: 3em;\n	color: #FFF;\n}\n\n#logo p\n{\n	letter-spacing: 0.10em;\n	color: #FFF;\n}\n\n#logo a\n{\n	text-decoration: none;\n	color: #FFF;\n}\n\n/*********************************************************************************/\n/* Banner                                                                        */\n/*********************************************************************************/\n\n#banner\n{\n	overflow: hidden;\n	margin-top: 5em;\n}\n\n	#banner	.image\n		{\n			display: inline-block;\n		}\n		\n		#banner	.image img\n			{\n				display: block;\n				width: 100%;\n			}\n\n/** MENU */\n\n#menu-wrapper\n{\n	background: #4C4639;\n}\n\n#menu\n{\n	overflow: hidden;\n	height: 80px;\n}\n\n#menu ul\n{\n	margin: 0;\n	padding: 20px 0px 0px 0px;\n	list-style: none;\n	line-height: normal;\n	text-align: center;\n}\n\n#menu li\n{\n	display: inline-block;\n}\n\n#menu a\n{\n	display: block;\n	letter-spacing: 1px;\n	padding: 0 30px;\n	text-decoration: none;\n	text-align: center;\n	text-transform: uppercase;\n	line-height: 60px;\n	font-size: 0.80em;\n	font-weight: 600;\n	border: none;\n	color: #FFF;\n}\n\n#menu a:hover, #menu .current_page_item a\n{\n	text-decoration: none;\n}\n\n#menu .current_page_item a\n{\n	border-radius: 5px 5px 0px 0px;\n	background: #262116;\n}\n\n/** PAGE */\n\n#page\n{\n	position: relative;\n	overflow: hidden;\n	padding: 6em 0em 5em 0em;\n}\n\n/** CONTENT */\n\n#content\n{\n	float: right;\n	width: 790px;\n}\n\n/*********************************************************************************/\n/* Sidebar                                                                       */\n/*********************************************************************************/\n\n	#sidebar\n{\n	float: left;\n	width: 345px;\n}\n\n#sidebar .title h2\n{\n	font-size: 1.6em;\n}\n\n#sidebar .box1\n{\n	margin-bottom: 3em;\n}\n\n/*********************************************************************************/\n/* Copyright                                                                     */\n/*********************************************************************************/\n\n	#copyright\n{\n	overflow: hidden;\n	padding: 5em 0em;\n	text-align: center;\n}\n\n#copyright p\n{\n	letter-spacing: 0.20em;\n	text-align: center;\n	text-transform: uppercase;\n	font-size: 0.80em;\n	color: #6F6F6F;\n}\n\n#copyright a\n{\n	text-decoration: none;\n	color: #8C8C8C;\n}\n\n/*********************************************************************************/\n/* Welcome                                                                       */\n/*********************************************************************************/\n\n	#welcome\n{\n	overflow: hidden;\n	padding: 5em 0em;\n	border-bottom: 1px solid #E5E5E5;\n	text-align: center;\n}\n\n#welcome h2\n{\n	letter-spacing: 0.20em;\n	text-transform: uppercase;\n	font-size: 2.6em;\n}\n\n#welcome p\n{\n	font-size: 1.3em;\n}\n\n#welcome .byline\n{\n	display: block;\n	padding: 0em 0em 1.5em 0em;\n	letter-spacing: 0.15em;\n	text-transform: uppercase;\n	font-weight: 400;\n	font-size: 1.2em;\n	color: #6F6F6F;\n}\n\n/*********************************************************************************/\n/* Portfolio                                                                     */\n/*********************************************************************************/\n\n	#portfolio-wrapper\n{\n	padding: 6em 0em;\n	text-align: center;\n	border-bottom: 1px solid rgba(0,0,0,.1);\n}\n\n#portfolio\n{\n	overflow: hidden;\n}\n\n#portfolio .title h2\n{\n	font-size: 1.2em;\n	color: #262116;\n}\n\n#portfolio .byline\n{\n	font-size: 1em;\n	color: #EEA7C1;\n}\n\n#column1,  #column2,  #column3,  #column4\n{\n	width: 282px;\n}\n\n#column1,  #column2\n{\n	float: left;\n	margin-right: 24px;\n}\n\n#column3\n{\n	float: left;\n}\n\n#column4\n{\n	float: right;\n}\n\n/*********************************************************************************/\n/* Button Style                                                                  */\n/*********************************************************************************/\n\n	.button\n{\n	display: inline-block;\n	margin-top: 1.5em;\n	padding: 0.50em 3em 0.50em 2em;\n	background: #262116;\n	letter-spacing: 0.20em;\n	text-decoration: none;\n	text-transform: uppercase;\n	font-weight: 400;\n	border-radius: 8px 0px 8px 0px;\n	font-size: 0.90em;\n	color: #FFF;\n}\n\n.button:before\n{\n	display: inline-block;\n	width: 40px;\n	height: 40px;\n	line-height: 40px;\n	border-radius: 20px;\n	text-align: center;\n	color: #FFF;\n}\n\n/*********************************************************************************/\n/* Footer                                                                        */\n/*********************************************************************************/\n	\n	#footer-wrapper\n{\n	overflow: hidden;\n	padding: 5em 0em;\n	border-top: 1px solid rgba(0,0,0,.1);\n}\n\n#footer\n{\n	color: #ADADAD;\n}\n\n#footer .title h2\n{\n	font-weight: 400;\n	font-size: 1.2em;\n	color: #FFF;\n}\n\n#footer .title\n{\n	border-color: #2D2926 !important;\n}\n\n#footer .style1 li\n{\n	border-color: #2D2926 !important;\n}\n\n#footer .style1 a\n{\n	letter-spacing: 0.10em;\n	font-size:1em;\n	color: #B1B1B1;\n}\n\n#box1\n{\n	float: left;\n	width: 354px;\n	margin-right: 24px;\n	padding-right: 30px;\n}\n\n#box2\n{\n	float: left;\n	width: 354px;\n	margin-left: 24px;\n	padding-right: 30px;\n}\n\n#box3\n{\n	float: right;\n	width: 344px;\n	padding-left: 40px;\n}\n\n/* List Style 1 */\n\n.list-style1 {\n	margin: 0px;\n	padding: 0px;\n	list-style: none;\n}\n\n.list-style1 li {\n	padding: 20px 0px 20px 0px;\n	border-top: 1px solid #D4D4D4;\n}\n\n.list-style1 .date {\n	font-weight: bold;\n	color: #212121;\n}\n\n.list-style1 img {\n	float: left;\n	margin-right: 25px;\n}\n\n.list-style1 .first {\n	padding-top: 0px;\n	border-top: none;\n}\n",
 			"file": "default.css",
-			"file_size": 10940,
-			"file_write_time": 130388990876726202,
 			"settings":
 			{
-				"buffer_size": 10940,
+				"buffer_size": 10851,
 				"line_ending": "Windows"
 			}
 		},
@@ -45,7 +42,7 @@
 			"file": "projects.html",
 			"settings":
 			{
-				"buffer_size": 2756,
+				"buffer_size": 2754,
 				"line_ending": "Unix"
 			}
 		},
@@ -53,51 +50,39 @@
 			"file": "subl-floo-tutorial.html",
 			"settings":
 			{
-				"buffer_size": 2535,
+				"buffer_size": 2935,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<!--\nDesign by Free CSS Templates\nhttp://www.freecsstemplates.org\nReleased for free under a Creative Commons Attribution 2.5 License\n\nName       : Stratagem \nDescription: A two-column, fixed-width design with dark color scheme.\nVersion    : 1.0\nReleased   : 20130707\n\n-->\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<title>Stratagem</title>\n<meta name=\"keywords\" content=\"\" />\n<meta name=\"description\" content=\"\" />\n<link href=\"default.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\n<link href=\"fonts.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\n<!--[if IE 6]>\n<link href=\"default_ie6.css\" rel=\"stylesheet\" type=\"text/css\" />\n<![endif]-->\n</head>\n<body>\n<div id=\"wrapper\">\n	<div id=\"menu-wrapper\">\n		<div id=\"menu\" class=\"container\">\n			<ul>\n				<li class=\"current_page_item\"><a href=\"#\">Homepage</a></li>\n				<li><a href=\"#\">About</a></li>\n				<li><a href=\"#\">Blog</a></li>\n				<li><a href=\"#\">Portfolio</a></li>\n				<li><a href=\"#\">Contact</a></li>\n			</ul>\n		</div>\n		<!-- end #menu --> \n	</div>\n	<div id=\"header-wrapper\">\n		<div id=\"header\" class=\"container\">\n			<div id=\"logo\">\n				<h1><a href=\"#\">Stratagem</a></h1>\n				<p>Template Design by <a href=\"http://www.freecsstemplates.org/\" rel=\"nofollow\">FreeCSSTemplates.org</a></p>\n			</div>\n		</div>\n	</div>\n	<div id=\"banner\" class=\"container\"> <a href=\"#\" class=\"image\"><img src=\"images/pic01.jpg\" alt=\"\" /></a> </div>\n	<div id=\"portfolio-wrapper\">\n		<div id=\"portfolio\" class=\"container\">\n			<div id=\"column1\">\n				<div class=\"title\">\n					<h2>Suspendisse lacus</h2>\n				</div>\n				<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n				<a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n			<div id=\"column2\">\n				<div class=\"title\">\n					<h2>Fusce ultrices</h2>\n				</div>\n				<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n				<a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n			<div id=\"column3\">\n				<div class=\"title\">\n					<h2>Etiam posuere</h2>\n				</div>\n				<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n				<a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n			<div id=\"column4\">\n				<div class=\"title\">\n					<h2>Mauris vulputate</h2>\n				</div>\n				<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n				<a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n		</div>\n	</div>\n	<div id=\"page\" class=\"container\">\n		<div id=\"content\">\n			<div class=\"title\">\n				<h2>Integer sit amet aliquet</h2>\n				<span class=\"byline\">Phasellus nec erat sit amet nibh pellentesque congue</span> </div>\n			<p>This is <strong>Stratagem</strong>, a free, fully standards-compliant CSS template designed by <a href=\"http://www.freecsstemplates.org/\" rel=\"nofollow\">FreeCSSTemplates.org</a>. The photos in this template are from <a href=\"http://fotogrph.com/\"> Fotogrph</a>. This free template is released under a <a href=\"http://creativecommons.org/licenses/by/3.0/\">Creative Commons Attributions 3.0</a> license, so you are pretty much free to do whatever you want with it (even use it commercially) provided you keep the links in the footer intact. Aside from that, have fun with it :) </p>\n			<ul class=\"style3\">\n				<li class=\"first\">\n					<h3><em><img src=\"images/pic02.jpg\" alt=\"\" width=\"140\" height=\"140\" class=\"alignleft border\" /></em>Lorem ipsum dolor interdum</h3>\n					<p>Ut vel nisl tristique justo ornare iaculis. Suspendisse suscipit, orci ac interdum viverra, nulla orci facilisis mi, a ultrices mi lectus vitae felis. Morbi suscipit adipiscing orci et blandit. Morbi a nulla ut tellus blandit placerat a quis eros.</p>\n					<a href=\"#\">Read More</a>\n				</li>\n				<li>\n					<h3><em><img src=\"images/pic03.jpg\" alt=\"\" width=\"140\" height=\"140\" class=\"alignleft border\" /></em>Magna phasellus etiam ultrices</h3>\n					<p>Ut vel nisl tristique justo ornare iaculis. Suspendisse suscipit, orci ac interdum viverra, nulla orci facilisis mi, a ultrices mi lectus vitae felis. Morbi suscipit adipiscing orci et blandit. Morbi a nulla ut tellus blandit placerat a quis eros.</p>\n					<a href=\"#\">Read More</a>\n				</li>\n				<li>\n					<h3><em><img src=\"images/pic04.jpg\" alt=\"\" width=\"140\" height=\"140\" class=\"alignleft border\" /></em>Magna phasellus etiam ultrices</h3>\n					<p>Ut vel nisl tristique justo ornare iaculis. Suspendisse suscipit, orci ac interdum viverra, nulla orci facilisis mi, a ultrices mi lectus vitae felis. Morbi suscipit adipiscing orci et blandit. Morbi a nulla ut tellus blandit placerat a quis eros.</p>\n					<a href=\"#\">Read More</a>\n				</li>\n			</ul>\n		</div>\n		<div id=\"sidebar\">\n			<div class=\"box1\">\n				<div class=\"title\">\n					<h2>Integer gravida</h2>\n				</div>\n				<ul class=\"list-style1\">\n					<li class=\"first\">\n						<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus, cursus egestas at sem. </p>\n						<p><a href=\"#\" class=\"link-style\">Read More</a></p>\n					</li>\n					<li>\n						<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus  at sem. Suspendisse suscipit, orci ac interdum viverra.</p>\n						<p><a href=\"#\" class=\"link-style\">Read More</a></p>\n					</li>\n				</ul>\n			</div>\n			<div class=\"box2\">\n				<div class=\"title\">\n					<h2>pendisse suscipit</h2>\n				</div>\n				<ul class=\"style2\">\n					<li><a href=\"#\">Amet turpis, feugiat et sit amet</a></li>\n					<li><a href=\"#\">Ornare in hendrerit in lectus</a></li>\n					<li><a href=\"#\">Semper mod quis eget mi dolore</a></li>\n					<li><a href=\"#\">Quam turpis feugiat sit dolor</a></li>\n					<li><a href=\"#\">Amet ornare in hendrerit in lectus</a></li>\n					<li><a href=\"#\">Quam turpis feugiat sit dolor</a></li>\n					<li><a href=\"#\">Consequat etiam lorem phasellus</a></li>\n				</ul>\n			</div>\n		</div>\n	</div>\n</div>\n</div>\n<div id=\"copyright\" class=\"container\">\n	<p>Copyright (c) 2013 Sitename.com. All rights reserved. | Photos by <a href=\"http://fotogrph.com/\">Fotogrph</a> | Design by <a href=\"http://www.freecsstemplates.org/\" rel=\"nofollow\">FreeCSSTemplates.org</a>.</p>\n</div>\n</body>\n</html>\n",
 			"file": "stratagem/index.html",
-			"file_size": 6620,
-			"file_write_time": 130388990876766202,
 			"settings":
 			{
-				"buffer_size": 6619,
+				"buffer_size": 6561,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<!--\nTEMPLATE DESCRIPTION\n~~~~~~~~~~~~~~~~~~~~\nDesign by Free CSS Templates\nhttp://www.freecsstemplates.org\nReleased for free under a Creative Commons Attribution 2.5 License\n\nName       : Stratagem \nDescription: A two-column, fixed-width design with dark color scheme.\nVersion    : 1.0\nReleased   : 20130707\n\n-->\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<title>About - Adrian Wan</title>\n<meta name=\"keywords\" content=\"\" />\n<meta name=\"description\" content=\"\" />\n<link href=\"default.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\n<link href=\"fonts.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\n<!--[if IE 6]>\n<link href=\"default_ie6.css\" rel=\"stylesheet\" type=\"text/css\" />\n<![endif]-->\n</head>\n<body>\n<div id=\"wrapper\">\n	<div id=\"menu-wrapper\">\n		<div id=\"menu\" class=\"container\">\n			<ul>\n				<li><a href=\"index.html\">Homepage</a></li>\n				<li class=\"current_page_item\"><a href=\"#\">About</a></li>\n				<li><a href=\"projects.html\">Projects</a></li>\n				<li><a href=\"resume.html\">Resum&eacute;</a></li>\n				<li><a href=\"contact.html\">Contact</a></li>\n			</ul>\n		</div>\n		<!-- end #menu --> \n	</div>\n	<!-\n	<div id=\"header-wrapper\">\n		<div id=\"header\" class=\"container\">\n			<div id=\"logo\">\n				<p>Words about me</p>\n			</div>\n		</div>\n	</div>\n\n  <!--\n	<div id=\"banner\" class=\"container\"> <a href=\"#\" class=\"image\"><img src=\"images/pic01.jpg\" alt=\"\" /></a> </div>\n  -->\n	<div id=\"page\" class=\"container\">\n		<div id=\"content\">\n			<div class=\"title\">\n				<h2>A Summary</h2>\n				<span class=\"byline\">of 20 years</span>\n			</div>\n				<p> Under construction </p>\n			<ul class=\"style3\">\n				<li class=\"first\">\n					<h3><em><img src=\"images/pic02.jpg\" alt=\"\" width=\"140\" height=\"140\" class=\"alignleft border\" /></em>Lorem ipsum dolor interdum</h3>\n					<p>Ut vel nisl tristique justo ornare iaculis. Suspendisse suscipit, orci ac interdum viverra, nulla orci facilisis mi, a ultrices mi lectus vitae felis. Morbi suscipit adipiscing orci et blandit. Morbi a nulla ut tellus blandit placerat a quis eros.</p>\n					<a href=\"#\">Read More</a>\n				</li>\n				<li>\n					<h3><em><img src=\"images/pic03.jpg\" alt=\"\" width=\"140\" height=\"140\" class=\"alignleft border\" /></em>Magna phasellus etiam ultrices</h3>\n					<p>Ut vel nisl tristique justo ornare iaculis. Suspendisse suscipit, orci ac interdum viverra, nulla orci facilisis mi, a ultrices mi lectus vitae felis. Morbi suscipit adipiscing orci et blandit. Morbi a nulla ut tellus blandit placerat a quis eros.</p>\n					<a href=\"#\">Read More</a>\n				</li>\n				<li>\n					<h3><em><img src=\"images/pic04.jpg\" alt=\"\" width=\"140\" height=\"140\" class=\"alignleft border\" /></em>Magna phasellus etiam ultrices</h3>\n					<p>Ut vel nisl tristique justo ornare iaculis. Suspendisse suscipit, orci ac interdum viverra, nulla orci facilisis mi, a ultrices mi lectus vitae felis. Morbi suscipit adipiscing orci et blandit. Morbi a nulla ut tellus blandit placerat a quis eros.</p>\n					<a href=\"#\">Read More</a>\n				</li>\n			</ul>\n		</div>\n		<div id=\"sidebar\">\n			<div class=\"box1\">\n			  <img src=\"images/profile.jpg\" />\n			</div>\n		</div>\n	</div>\n</div>\n</div>\n\n\n\n<div id=\"copyright\" class=\"container\">\n	<p>Copyright (c) 2014 Adrian Wan. All rights reserved. | Photos by <a href=\"http://fotogrph.com/\">Fotogrph</a> | Design by <a href=\"http://www.freecsstemplates.org/\" rel=\"nofollow\">FreeCSSTemplates.org</a>.</p>\n</div>\n</body>\n</html>\n",
 			"file": "about.html",
-			"file_size": 3595,
-			"file_write_time": 130388990876726202,
 			"settings":
 			{
-				"buffer_size": 3652,
+				"buffer_size": 3399,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<!--\nTEMPLATE DESCRIPTION\n~~~~~~~~~~~~~~~~~~~~\nDesign by Free CSS Templates\nhttp://www.freecsstemplates.org\nReleased for free under a Creative Commons Attribution 2.5 License\n\nName       : Stratagem \nDescription: A two-column, fixed-width design with dark color scheme.\nVersion    : 1.0\nReleased   : 20130707\n\n-->\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<title>Contact - Adrian Wan</title>\n<meta name=\"keywords\" content=\"\" />\n<meta name=\"description\" content=\"\" />\n<link href=\"default.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\n<link href=\"fonts.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\n<!--[if IE 6]>\n<link href=\"default_ie6.css\" rel=\"stylesheet\" type=\"text/css\" />\n<![endif]-->\n</head>\n<body>\n<div id=\"wrapper\">\n	<div id=\"menu-wrapper\">\n		<div id=\"menu\" class=\"container\">\n			<ul>\n				<li><a href=\"index.html\">Homepage</a></li>\n				<li><a href=\"about.html\">About</a></li>\n				<li><a href=\"projects.html\">Projects</a></li>\n				<li><a href=\"resume.html\">Resum&eacute;</a></li>\n				<li class=\"current_page_item\"><a href=\"#\">Contact</a></li>\n			</ul>\n		</div>\n		<!-- end #menu --> \n	</div>\n	<div id=\"header-wrapper\">\n		<div id=\"header\" class=\"container\">\n			<div id=\"logo\">\n				<p>How to reach me</p>\n			</div>\n		</div>\n	</div>\n  <!--\n	<div id=\"banner\" class=\"container\"> <a href=\"#\" class=\"image\"><img src=\"images/pic01.jpg\" alt=\"\" /></a> </div>\n  -->\n	<div id=\"portfolio-wrapper\">\n		<div id=\"portfolio\" class=\"container\">\n			<div id=\"column1\">\n				<div class=\"title\">\n					<h2>h2 column1</h2>\n				</div>\n				<p>p column1</p>\n				<a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n			<div id=\"column2\">\n				<div class=\"title\">\n					<h2>h2 column2</h2>\n				</div>\n				<p>p column2</p>\n				<a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n			<div id=\"column3\">\n				<div class=\"title\">\n					<h2>Etiam posuere</h2>\n				</div>\n				<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n				<a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n			<div id=\"column4\">\n				<div class=\"title\">\n					<h2>Mauris vulputate</h2>\n				</div>\n				<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n				<a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n		</div>\n	</div>\n  <!--\n	<div id=\"page\" class=\"container\">\n		<div id=\"content\">\n			<div class=\"title\">\n				<h2>Integer sit amet aliquet</h2>\n				<span class=\"byline\">Phasellus nec erat sit amet nibh pellentesque congue</span> </div>\n			<p>This is <strong>Stratagem</strong>, a free, fully standards-compliant CSS template designed by <a href=\"http://www.freecsstemplates.org/\" rel=\"nofollow\">FreeCSSTemplates.org</a>. The photos in this template are from <a href=\"http://fotogrph.com/\"> Fotogrph</a>. This free template is released under a <a href=\"http://creativecommons.org/licenses/by/3.0/\">Creative Commons Attributions 3.0</a> license, so you are pretty much free to do whatever you want with it (even use it commercially) provided you keep the links in the footer intact. Aside from that, have fun with it :) </p>\n			<ul class=\"style3\">\n				<li class=\"first\">\n					<h3><em><img src=\"images/pic02.jpg\" alt=\"\" width=\"140\" height=\"140\" class=\"alignleft border\" /></em>Lorem ipsum dolor interdum</h3>\n					<p>Ut vel nisl tristique justo ornare iaculis. Suspendisse suscipit, orci ac interdum viverra, nulla orci facilisis mi, a ultrices mi lectus vitae felis. Morbi suscipit adipiscing orci et blandit. Morbi a nulla ut tellus blandit placerat a quis eros.</p>\n					<a href=\"#\">Read More</a>\n				</li>\n				<li>\n					<h3><em><img src=\"images/pic03.jpg\" alt=\"\" width=\"140\" height=\"140\" class=\"alignleft border\" /></em>Magna phasellus etiam ultrices</h3>\n					<p>Ut vel nisl tristique justo ornare iaculis. Suspendisse suscipit, orci ac interdum viverra, nulla orci facilisis mi, a ultrices mi lectus vitae felis. Morbi suscipit adipiscing orci et blandit. Morbi a nulla ut tellus blandit placerat a quis eros.</p>\n					<a href=\"#\">Read More</a>\n				</li>\n				<li>\n					<h3><em><img src=\"images/pic04.jpg\" alt=\"\" width=\"140\" height=\"140\" class=\"alignleft border\" /></em>Magna phasellus etiam ultrices</h3>\n					<p>Ut vel nisl tristique justo ornare iaculis. Suspendisse suscipit, orci ac interdum viverra, nulla orci facilisis mi, a ultrices mi lectus vitae felis. Morbi suscipit adipiscing orci et blandit. Morbi a nulla ut tellus blandit placerat a quis eros.</p>\n					<a href=\"#\">Read More</a>\n				</li>\n			</ul>\n		</div>\n		<div id=\"sidebar\">\n			<div class=\"box1\">\n				<div class=\"title\">\n					<h2>Integer gravida</h2>\n				</div>\n				<ul class=\"list-style1\">\n					<li class=\"first\">\n						<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus, cursus egestas at sem. </p>\n						<p><a href=\"#\" class=\"link-style\">Read More</a></p>\n					</li>\n					<li>\n						<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus  at sem. Suspendisse suscipit, orci ac interdum viverra.</p>\n						<p><a href=\"#\" class=\"link-style\">Read More</a></p>\n					</li>\n				</ul>\n			</div>\n			<div class=\"box2\">\n				<div class=\"title\">\n					<h2>pendisse suscipit</h2>\n				</div>\n				<ul class=\"style2\">\n					<li><a href=\"#\">Amet turpis, feugiat et sit amet</a></li>\n					<li><a href=\"#\">Ornare in hendrerit in lectus</a></li>\n					<li><a href=\"#\">Semper mod quis eget mi dolore</a></li>\n					<li><a href=\"#\">Quam turpis feugiat sit dolor</a></li>\n					<li><a href=\"#\">Amet ornare in hendrerit in lectus</a></li>\n					<li><a href=\"#\">Quam turpis feugiat sit dolor</a></li>\n					<li><a href=\"#\">Consequat etiam lorem phasellus</a></li>\n				</ul>\n			</div>\n		</div>\n	</div>\n  -->\n</div>\n</div>\n<div id=\"copyright\" class=\"container\">\n	<p>Copyright (c) 2014 Adrian Wan. All rights reserved. | Photos by <a href=\"http://fotogrph.com/\">Fotogrph</a> | Design by <a href=\"http://www.freecsstemplates.org/\" rel=\"nofollow\">FreeCSSTemplates.org</a>.</p>\n</div>\n</body>\n</html>\n",
 			"file": "contact.html",
-			"file_size": 6391,
-			"file_write_time": 130388990876726202,
 			"settings":
 			{
-				"buffer_size": 6391,
+				"buffer_size": 6033,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<!--\nTEMPLATE DESCRIPTION\n~~~~~~~~~~~~~~~~~~~~\nDesign by Free CSS Templates\nhttp://www.freecsstemplates.org\nReleased for free under a Creative Commons Attribution 2.5 License\n\nName       : Stratagem \nDescription: A two-column, fixed-width design with dark color scheme.\nVersion    : 1.0\nReleased   : 20130707\n\n-->\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<title>Resum&eacute; - Adrian Wan</title>\n<meta name=\"keywords\" content=\"\" />\n<meta name=\"description\" content=\"\" />\n<link href=\"default.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\n<link href=\"fonts.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\n<!--[if IE 6]>\n<link href=\"default_ie6.css\" rel=\"stylesheet\" type=\"text/css\" />\n<![endif]-->\n</head>\n<body>\n<div id=\"wrapper\">\n	<div id=\"menu-wrapper\">\n		<div id=\"menu\" class=\"container\">\n			<ul>\n				<li><a href=\"index.html\">Homepage</a></li>\n				<li><a href=\"about.html\">About</a></li>\n				<li><a href=\"projects.html\">Projects</a></li>\n				<li class=\"current_page_item\"><a href=\"#\">Resum&eacute;</a></li>\n				<li><a href=\"contact.html\">Contact</a></li>\n			</ul>\n		</div>\n		<!-- end #menu --> \n	</div>\n	<div id=\"header-wrapper\">\n		<div id=\"header\" class=\"container\">\n			<div id=\"logo\">\n				<p>Things I've done</p>\n			</div>\n		</div>\n	</div>\n  <!--\n	<div id=\"banner\" class=\"container\"> <a href=\"#\" class=\"image\"><img src=\"images/pic01.jpg\" alt=\"\" /></a> </div>\n  -->\n	<div id=\"portfolio-wrapper\">\n		<div id=\"portfolio\" class=\"container\">\n			<div id=\"column1\">\n				<div class=\"title\">\n					<h2>Suspendisse lacus</h2>\n				</div>\n				<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n				<a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n			<div id=\"column2\">\n				<div class=\"title\">\n					<h2>Fusce ultrices</h2>\n				</div>\n				<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n				<a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n			<div id=\"column3\">\n				<div class=\"title\">\n					<h2>Etiam posuere</h2>\n				</div>\n				<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n				<a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n			<div id=\"column4\">\n				<div class=\"title\">\n					<h2>Mauris vulputate</h2>\n				</div>\n				<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n				<a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n		</div>\n	</div>\n  <!--\n	<div id=\"page\" class=\"container\">\n		<div id=\"content\">\n			<div class=\"title\">\n				<h2>Integer sit amet aliquet</h2>\n				<span class=\"byline\">Phasellus nec erat sit amet nibh pellentesque congue</span> </div>\n			<p>This is <strong>Stratagem</strong>, a free, fully standards-compliant CSS template designed by <a href=\"http://www.freecsstemplates.org/\" rel=\"nofollow\">FreeCSSTemplates.org</a>. The photos in this template are from <a href=\"http://fotogrph.com/\"> Fotogrph</a>. This free template is released under a <a href=\"http://creativecommons.org/licenses/by/3.0/\">Creative Commons Attributions 3.0</a> license, so you are pretty much free to do whatever you want with it (even use it commercially) provided you keep the links in the footer intact. Aside from that, have fun with it :) </p>\n			<ul class=\"style3\">\n				<li class=\"first\">\n					<h3><em><img src=\"images/pic02.jpg\" alt=\"\" width=\"140\" height=\"140\" class=\"alignleft border\" /></em>Lorem ipsum dolor interdum</h3>\n					<p>Ut vel nisl tristique justo ornare iaculis. Suspendisse suscipit, orci ac interdum viverra, nulla orci facilisis mi, a ultrices mi lectus vitae felis. Morbi suscipit adipiscing orci et blandit. Morbi a nulla ut tellus blandit placerat a quis eros.</p>\n					<a href=\"#\">Read More</a>\n				</li>\n				<li>\n					<h3><em><img src=\"images/pic03.jpg\" alt=\"\" width=\"140\" height=\"140\" class=\"alignleft border\" /></em>Magna phasellus etiam ultrices</h3>\n					<p>Ut vel nisl tristique justo ornare iaculis. Suspendisse suscipit, orci ac interdum viverra, nulla orci facilisis mi, a ultrices mi lectus vitae felis. Morbi suscipit adipiscing orci et blandit. Morbi a nulla ut tellus blandit placerat a quis eros.</p>\n					<a href=\"#\">Read More</a>\n				</li>\n				<li>\n					<h3><em><img src=\"images/pic04.jpg\" alt=\"\" width=\"140\" height=\"140\" class=\"alignleft border\" /></em>Magna phasellus etiam ultrices</h3>\n					<p>Ut vel nisl tristique justo ornare iaculis. Suspendisse suscipit, orci ac interdum viverra, nulla orci facilisis mi, a ultrices mi lectus vitae felis. Morbi suscipit adipiscing orci et blandit. Morbi a nulla ut tellus blandit placerat a quis eros.</p>\n					<a href=\"#\">Read More</a>\n				</li>\n			</ul>\n		</div>\n		<div id=\"sidebar\">\n			<div class=\"box1\">\n				<div class=\"title\">\n					<h2>Integer gravida</h2>\n				</div>\n				<ul class=\"list-style1\">\n					<li class=\"first\">\n						<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus, cursus egestas at sem. </p>\n						<p><a href=\"#\" class=\"link-style\">Read More</a></p>\n					</li>\n					<li>\n						<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus  at sem. Suspendisse suscipit, orci ac interdum viverra.</p>\n						<p><a href=\"#\" class=\"link-style\">Read More</a></p>\n					</li>\n				</ul>\n			</div>\n			<div class=\"box2\">\n				<div class=\"title\">\n					<h2>pendisse suscipit</h2>\n				</div>\n				<ul class=\"style2\">\n					<li><a href=\"#\">Amet turpis, feugiat et sit amet</a></li>\n					<li><a href=\"#\">Ornare in hendrerit in lectus</a></li>\n					<li><a href=\"#\">Semper mod quis eget mi dolore</a></li>\n					<li><a href=\"#\">Quam turpis feugiat sit dolor</a></li>\n					<li><a href=\"#\">Amet ornare in hendrerit in lectus</a></li>\n					<li><a href=\"#\">Quam turpis feugiat sit dolor</a></li>\n					<li><a href=\"#\">Consequat etiam lorem phasellus</a></li>\n				</ul>\n			</div>\n		</div>\n	</div>\n  -->\n</div>\n</div>\n<div id=\"copyright\" class=\"container\">\n	<p>Copyright (c) 2014 Adrian Wan. All rights reserved. | Photos by <a href=\"http://fotogrph.com/\">Fotogrph</a> | Design by <a href=\"http://www.freecsstemplates.org/\" rel=\"nofollow\">FreeCSSTemplates.org</a>.</p>\n</div>\n</body>\n</html>\n",
 			"file": "resume.html",
-			"file_size": 6575,
-			"file_write_time": 130388990876726202,
 			"settings":
 			{
-				"buffer_size": 6632,
+				"buffer_size": 2502,
 				"line_ending": "Windows"
 			}
 		}
@@ -105,7 +90,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 369.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -178,13 +163,14 @@
 	},
 	"file_history":
 	[
+		"/home/adrian/public_html/resume.js",
+		"/home/adrian/public_html/fonts.css",
 		"/home/adrian/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/adrian/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
 		"/home/adrian/public_html/FLOOBITS_README.md",
 		"/home/adrian/public_html/index2.html",
 		"/home/adrian/public_html/flootut.html",
 		"/home/adrian/public_html/license.txt",
-		"/home/adrian/public_html/fonts.css",
 		"/home/adrian/public_html/index.php",
 		"/media/sf_LinuxFiles/cs44/labs/1_floo/buffer.cpp",
 		"/media/sf_LinuxFiles/cs44/labs/1_floo/bufferHashTable.h",
@@ -207,6 +193,9 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"<open files>",
+			"*",
+			"Open files and folders",
 			""
 		]
 	},
@@ -215,6 +204,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"| Photos by <a href=\"http://fotogrph.com/\">Fotogrph</a> | ",
+			"h3",
+			"px",
+			"more",
+			"More",
+			"=\"\">",
+			"",
 			"2013 Sitename.com",
 			"ret_task",
 			"bufMgr",
@@ -249,6 +245,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			" ",
+			"",
+			"\\n",
 			"2014 Adrian Wan"
 		],
 		"reverse": false,
@@ -260,7 +260,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -269,15 +269,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3423,
+						"buffer_size": 3301,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3115,
-								3115
+								1282,
+								1282
 							]
 						],
 						"settings":
@@ -286,6 +286,153 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": true,
+								"_vintageous_input_parsers":
+								[
+								],
+								"action": null,
+								"action_count": "",
+								"capture_register": false,
+								"mode": "mode_insert",
+								"motion": null,
+								"motion_count": "",
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"repeat_data":
+								[
+									"native",
+									[
+										"sequence",
+										{
+											"commands":
+											[
+												[
+													"_vi_a",
+													{
+														"count": 1,
+														"mode": "mode_internal_normal"
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": "\n"
+													}
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"insert",
+													{
+														"characters": "<--"
+													}
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"insert",
+													{
+														"characters": "!--"
+													}
+												],
+												[
+													"move_to",
+													{
+														"extend": false,
+														"to": "eol"
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": "\n-->"
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": false
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": false
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": false
+													}
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"insert",
+													{
+														"characters": "  "
+													}
+												]
+											]
+										}
+									],
+									"mode_insert",
+									null
+								],
+								"sequence": "",
+								"user_input": "",
+								"xpos": 34
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 384.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "default.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6820,
+								6820
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false,
 							"vintage":
 							{
 								"_vintageous_glue_until_normal_mode": false,
@@ -304,63 +451,17 @@
 								"repeat_data":
 								[
 									"vi",
-									"df|",
+									"r0",
 									"mode_normal",
 									null
 								],
 								"sequence": "",
 								"user_input": "",
-								"xpos": 1
+								"xpos": 9
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "default.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10940,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6172,
-								6172
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"vintage":
-							{
-								"_vintageous_input_parsers":
-								[
-								],
-								"action": null,
-								"action_count": "",
-								"capture_register": false,
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"user_input": "",
-								"xpos": 0
-							}
-						},
-						"translation.x": 76.0,
-						"translation.y": 7350.0,
+						"translation.y": 6710.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 7,
@@ -372,15 +473,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2756,
+						"buffer_size": 2754,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								462,
-								462
+								1803,
+								1803
 							]
 						],
 						"settings":
@@ -412,191 +513,11 @@
 											"commands":
 											[
 												[
-													"_vi_a",
-													{
-														"count": 1,
-														"mode": "mode_internal_normal"
-													}
-												],
-												[
-													"insert",
-													{
-														"characters": "\n"
-													}
-												],
-												[
-													"insert",
-													{
-														"characters": "Quick"
-													}
-												],
-												[
-													"insert",
-													{
-														"characters": " Links"
-													}
-												],
-												[
-													"left_delete",
+													"find_under_expand",
 													null
 												],
 												[
-													"left_delete",
-													null
-												],
-												[
-													"move_to",
-													{
-														"extend": true,
-														"to": "bol"
-													}
-												],
-												[
-													"left_delete",
-													null
-												],
-												[
-													"left_delete",
-													null
-												],
-												[
-													"left_delete",
-													null
-												],
-												[
-													"left_delete",
-													null
-												],
-												[
-													"left_delete",
-													null
-												],
-												[
-													"left_delete",
-													null
-												],
-												[
-													"left_delete",
-													null
-												],
-												[
-													"left_delete",
-													null
-												],
-												[
-													"left_delete",
-													null
-												],
-												[
-													"move",
-													{
-														"by": "characters",
-														"forward": false
-													}
-												],
-												[
-													"move",
-													{
-														"by": "words",
-														"forward": false
-													}
-												],
-												[
-													"move",
-													{
-														"by": "words",
-														"forward": false
-													}
-												],
-												[
-													"move",
-													{
-														"by": "characters",
-														"forward": false
-													}
-												],
-												[
-													"move",
-													{
-														"by": "characters",
-														"forward": false
-													}
-												],
-												[
-													"move",
-													{
-														"by": "characters",
-														"forward": false
-													}
-												],
-												[
-													"move",
-													{
-														"by": "characters",
-														"forward": false
-													}
-												],
-												[
-													"delete_word",
-													{
-														"forward": false
-													}
-												],
-												[
-													"insert",
-													{
-														"characters": "Floobits"
-													}
-												],
-												[
-													"insert",
-													{
-														"characters": " &"
-													}
-												],
-												[
-													"insert",
-													{
-														"characters": " Sublime"
-													}
-												],
-												[
-													"insert",
-													{
-														"characters": " id="
-													}
-												],
-												[
-													"insert_snippet",
-													{
-														"contents": "\"$0\""
-													}
-												],
-												[
-													"insert",
-													{
-														"characters": "floo"
-													}
-												],
-												[
-													"move",
-													{
-														"by": "characters",
-														"forward": true
-													}
-												],
-												[
-													"left_delete",
-													null
-												],
-												[
-													"insert",
-													{
-														"characters": "li"
-													}
-												],
-												[
-													"left_delete",
+													"find_under_expand",
 													null
 												],
 												[
@@ -606,50 +527,17 @@
 												[
 													"insert",
 													{
-														"characters": "\""
+														"characters": "2"
 													}
 												],
 												[
-													"move",
-													{
-														"by": "characters",
-														"forward": false
-													}
-												],
-												[
-													"delete_word",
-													{
-														"forward": false
-													}
+													"left_delete",
+													null
 												],
 												[
 													"insert",
 													{
-														"characters": "subl-floo"
-													}
-												],
-												[
-													"delete_word",
-													{
-														"forward": false
-													}
-												],
-												[
-													"delete_word",
-													{
-														"forward": false
-													}
-												],
-												[
-													"delete_word",
-													{
-														"forward": false
-													}
-												],
-												[
-													"insert",
-													{
-														"characters": "subl-floo"
+														"characters": "h2"
 													}
 												]
 											]
@@ -660,14 +548,14 @@
 								],
 								"sequence": "",
 								"user_input": "",
-								"xpos": 38
+								"xpos": 6
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 624.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -676,15 +564,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2535,
+						"buffer_size": 2935,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								670,
-								670
+								2051,
+								2051
 							]
 						],
 						"settings":
@@ -735,6 +623,79 @@
 														"snippet": "li>$0</li>",
 														"trigger": "li"
 													}
+												],
+												[
+													"move_to",
+													{
+														"extend": false,
+														"to": "eol"
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": "\n<li"
+													}
+												],
+												[
+													"insert_completion",
+													{
+														"completion": "li	Tag",
+														"snippet": "li>$0</li>",
+														"trigger": "li"
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": "<a"
+													}
+												],
+												[
+													"insert_completion",
+													{
+														"completion": "a	Tag",
+														"snippet": "a href=\"$1\">$0</a>",
+														"trigger": "a"
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": "projects.html"
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": true
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": true
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": "Back"
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": " to"
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": " Projects"
+													}
 												]
 											]
 										}
@@ -744,20 +705,20 @@
 								],
 								"sequence": "",
 								"user_input": "",
-								"xpos": 33
+								"xpos": 38
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 672.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -766,24 +727,26 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6619,
+						"buffer_size": 6561,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5214,
-								5214
+								860,
+								860
 							]
 						],
 						"settings":
 						{
+							"highlight_line": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": false,
 							"vintage":
 							{
+								"_vintageous_glue_until_normal_mode": false,
 								"_vintageous_input_parsers":
 								[
 								],
@@ -793,18 +756,29 @@
 								"mode": "mode_normal",
 								"motion": null,
 								"motion_count": "",
+								"normal_insert_count": "1",
 								"partial_sequence": "",
 								"register": "\"",
+								"repeat_data":
+								[
+									"native",
+									[
+										"",
+										null
+									],
+									null,
+									null
+								],
 								"sequence": "",
 								"user_input": "",
-								"xpos": 7
+								"xpos": 10
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 1952.0,
+						"translation.y": 32.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -813,15 +787,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3652,
+						"buffer_size": 3399,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								624,
-								624
+								1473,
+								1473
 							]
 						],
 						"settings":
@@ -846,41 +820,21 @@
 								"register": "\"",
 								"repeat_data":
 								[
-									"native",
-									[
-										"sequence",
-										{
-											"commands":
-											[
-												[
-													"_vi_a",
-													{
-														"count": 1,
-														"mode": "mode_internal_normal"
-													}
-												],
-												[
-													"insert",
-													{
-														"characters": "\n"
-													}
-												]
-											]
-										}
-									],
-									"mode_insert",
+									"vi",
+									"d2j",
+									"mode_normal",
 									null
 								],
 								"sequence": "",
 								"user_input": "",
-								"xpos": 0
+								"xpos": 8
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 528.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -889,15 +843,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6391,
+						"buffer_size": 6033,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6391,
-								6391
+								5907,
+								5907
 							]
 						],
 						"settings":
@@ -930,32 +884,8 @@
 											"commands":
 											[
 												[
-													"insert",
-													{
-														"characters": "Conc"
-													}
-												],
-												[
-													"left_delete",
+													"clear_selection",
 													null
-												],
-												[
-													"insert",
-													{
-														"characters": "tact"
-													}
-												],
-												[
-													"insert",
-													{
-														"characters": " -"
-													}
-												],
-												[
-													"insert",
-													{
-														"characters": " "
-													}
 												]
 											]
 										}
@@ -965,11 +895,11 @@
 								],
 								"sequence": "",
 								"user_input": "",
-								"xpos": 114
+								"xpos": 55
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 2864.0,
+						"translation.y": 640.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -981,28 +911,31 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6632,
+						"buffer_size": 2502,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								405,
-								405
+								2245,
+								2245
 							]
 						],
 						"settings":
 						{
+							"highlight_line": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": false,
 							"vintage":
 							{
 								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_gluing_sequence": false,
 								"_vintageous_input_parsers":
 								[
 								],
+								"_vintageous_non_interactive": false,
 								"action": null,
 								"action_count": "",
 								"capture_register": false,
@@ -1014,21 +947,403 @@
 								"register": "\"",
 								"repeat_data":
 								[
-									"vi",
-									"df|",
-									"mode_normal",
+									"native",
+									[
+										"sequence",
+										{
+											"commands":
+											[
+												[
+													"_vi_a",
+													{
+														"count": 1,
+														"mode": "mode_internal_normal"
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": "\n"
+													}
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"move",
+													{
+														"by": "lines",
+														"forward": true
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": "\n"
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": "<div"
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": " id="
+													}
+												],
+												[
+													"insert_snippet",
+													{
+														"contents": "\"$0\""
+													}
+												],
+												[
+													"run_macro_file",
+													{
+														"file": "res://Packages/Default/Delete Left Right.sublime-macro"
+													}
+												],
+												[
+													"insert_snippet",
+													{
+														"contents": "\"$0\""
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": "page"
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": true
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": " class="
+													}
+												],
+												[
+													"insert_snippet",
+													{
+														"contents": "\"$0\""
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": "contaire"
+													}
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"insert",
+													{
+														"characters": "ner"
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": true
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": ">"
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": "\n<"
+													}
+												],
+												[
+													"close_tag",
+													{
+														"insert_slash": true
+													}
+												],
+												[
+													"move",
+													{
+														"by": "lines",
+														"forward": false
+													}
+												],
+												[
+													"move_to",
+													{
+														"extend": false,
+														"to": "eol"
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": "\n<d"
+													}
+												],
+												[
+													"insert_completion",
+													{
+														"completion": "div	Tag",
+														"snippet": "div>$0</div>",
+														"trigger": "div"
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": false
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": false
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": false
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": false
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": " "
+													}
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": false
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": "  "
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": true
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": true
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": true
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": true
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": true
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": false
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": " cl"
+													}
+												],
+												[
+													"move_to",
+													{
+														"extend": false,
+														"to": "eol"
+													}
+												],
+												[
+													"move_to",
+													{
+														"extend": true,
+														"to": "bol"
+													}
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"insert",
+													{
+														"characters": "\n"
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": "  <canv"
+													}
+												],
+												[
+													"insert_completion",
+													{
+														"completion": "canvas	Tag",
+														"snippet": "canvas>$0</canvas>",
+														"trigger": "canvas"
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": false
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": " id="
+													}
+												],
+												[
+													"insert_snippet",
+													{
+														"contents": "\"$0\""
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": "t"
+													}
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"insert",
+													{
+														"characters": "ca"
+													}
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"insert",
+													{
+														"characters": "the-canvas"
+													}
+												],
+												[
+													"move",
+													{
+														"by": "characters",
+														"forward": true
+													}
+												]
+											]
+										}
+									],
+									"mode_insert",
 									null
 								],
 								"sequence": "",
 								"user_input": "",
-								"xpos": 40
+								"xpos": 25
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 912.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1112,9 +1427,9 @@
 	},
 	"settings":
 	{
-		"_vintageous_last_buffer_search": "side",
-		"_vintageous_last_char_search_command": "vi_f",
-		"_vintageous_last_character_search": "|",
+		"_vintageous_last_buffer_search": "column",
+		"_vintageous_last_char_search_command": "vi_t",
+		"_vintageous_last_character_search": "h",
 		"_vintageous_last_character_search_forward": true,
 		"_vintageous_last_macro":
 		[
