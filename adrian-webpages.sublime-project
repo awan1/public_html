@@ -2,8 +2,7 @@
 	"folders":
 	[
 		{
-			"follow_symlinks": true,
-			"path": "."
+			"path": "/home/adrian/public_html"
 		}
 	]
 }
