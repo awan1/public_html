@@ -283,7 +283,7 @@ ul.contact li a.icon-rss:before
  
 .container 
 { 
-	width: 1200px; 
+	width: auto; 
 	margin: 0px auto; 
 } 
  
@@ -432,7 +432,7 @@ ul.contact li a.icon-rss:before
 #content 
 { 
 	float: right; 
-	width: 790px; 
+	width: 75%; 
 } 
  
 /*********************************************************************************/ 
@@ -442,7 +442,7 @@ ul.contact li a.icon-rss:before
 	#sidebar 
 { 
 	float: left; 
-	width: 345px; 
+	width: 25%; 
 } 
  
 #sidebar .title h2 
@@ -546,23 +546,13 @@ ul.contact li a.icon-rss:before
  
 #column1,  #column2,  #column3,  #column4 
 { 
-	width: 282px; 
+	width: 22%; 
+	float: left;
 } 
  
-#column1,  #column2 
+#column1,  #column2, #column3
 { 
-	float: left; 
 	margin-right: 24px; 
-} 
- 
-#column3 
-{ 
-	float: left; 
-} 
- 
-#column4 
-{ 
-	float: right; 
 } 
  
 /*********************************************************************************/ 
