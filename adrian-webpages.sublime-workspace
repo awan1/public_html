@@ -23,23 +23,26 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 772,
-				"line_ending": "Unix"
+				"buffer_size": 6510,
+				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<!--\nTEMPLATE DESCRIPTION\n~~~~~~~~~~~~~~~~~~~~\nDesign by Free CSS Templates\nhttp://www.freecsstemplates.org\nReleased for free under a Creative Commons Attribution 2.5 License\n\nName       : Stratagem \nDescription: A two-column, fixed-width design with dark color scheme.\nVersion    : 1.0\nReleased   : 20130707\n\n-->\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<title>Adrian Wan</title>\n<meta name=\"keywords\" content=\"\" />\n<meta name=\"description\" content=\"\" />\n<link href=\"default.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\n<link href=\"fonts.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\n<!--[if IE 6]>\n<link href=\"default_ie6.css\" rel=\"stylesheet\" type=\"text/css\" />\n<![endif]-->\n</head>\n<body>\n<div id=\"wrapper\">\n	<div id=\"menu-wrapper\">\n		<div id=\"menu\" class=\"container\">\n			<ul>\n				<li class=\"current_page_item\"><a href=\"#\">Homepage</a></li>\n				<li><a href=\"#\">About</a></li>\n				<li><a href=\"#\">Projects</a></li>\n				<li><a href=\"#\">Resum&eacute;</a></li>\n				<li><a href=\"#\">Contact</a></li>\n			</ul>\n		</div>\n		<!-- end #menu --> \n	</div>\n	<div id=\"header-wrapper\">\n		<div id=\"header\" class=\"container\">\n			<div id=\"logo\">\n				<h1><a href=\"#\">Adrian Wan</a></h1>\n				<p>Computer Science & Physics, Swarthmore College 2015</p>\n			</div>\n		</div>\n	</div>\n  <!--\n	<div id=\"banner\" class=\"container\"> <a href=\"#\" class=\"image\"><img src=\"images/pic01.jpg\" alt=\"\" /></a> </div>\n  -->\n	<div id=\"portfolio-wrapper\">\n		<div id=\"portfolio\" class=\"container\">\n			<div id=\"column1\">\n				<div class=\"title\">\n					<h2>Suspendisse lacus</h2>\n				</div>\n				<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n				<a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n			<div id=\"column2\">\n				<div class=\"title\">\n					<h2>Fusce ultrices</h2>\n				</div>\n				<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n				<a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n			<div id=\"column3\">\n				<div class=\"title\">\n					<h2>Etiam posuere</h2>\n				</div>\n				<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n				<a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n			<div id=\"column4\">\n				<div class=\"title\">\n					<h2>Mauris vulputate</h2>\n				</div>\n				<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>\n				<a href=\"#\" class=\"icon icon-arrow-right button\">Read More</a> </div>\n		</div>\n	</div>\n  <!--\n	<div id=\"page\" class=\"container\">\n		<div id=\"content\">\n			<div class=\"title\">\n				<h2>Integer sit amet aliquet</h2>\n				<span class=\"byline\">Phasellus nec erat sit amet nibh pellentesque congue</span> </div>\n			<p>This is <strong>Stratagem</strong>, a free, fully standards-compliant CSS template designed by <a href=\"http://www.freecsstemplates.org/\" rel=\"nofollow\">FreeCSSTemplates.org</a>. The photos in this template are from <a href=\"http://fotogrph.com/\"> Fotogrph</a>. This free template is released under a <a href=\"http://creativecommons.org/licenses/by/3.0/\">Creative Commons Attributions 3.0</a> license, so you are pretty much free to do whatever you want with it (even use it commercially) provided you keep the links in the footer intact. Aside from that, have fun with it :) </p>\n			<ul class=\"style3\">\n				<li class=\"first\">\n					<h3><em><img src=\"images/pic02.jpg\" alt=\"\" width=\"140\" height=\"140\" class=\"alignleft border\" /></em>Lorem ipsum dolor interdum</h3>\n					<p>Ut vel nisl tristique justo ornare iaculis. Suspendisse suscipit, orci ac interdum viverra, nulla orci facilisis mi, a ultrices mi lectus vitae felis. Morbi suscipit adipiscing orci et blandit. Morbi a nulla ut tellus blandit placerat a quis eros.</p>\n					<a href=\"#\">Read More</a>\n				</li>\n				<li>\n					<h3><em><img src=\"images/pic03.jpg\" alt=\"\" width=\"140\" height=\"140\" class=\"alignleft border\" /></em>Magna phasellus etiam ultrices</h3>\n					<p>Ut vel nisl tristique justo ornare iaculis. Suspendisse suscipit, orci ac interdum viverra, nulla orci facilisis mi, a ultrices mi lectus vitae felis. Morbi suscipit adipiscing orci et blandit. Morbi a nulla ut tellus blandit placerat a quis eros.</p>\n					<a href=\"#\">Read More</a>\n				</li>\n				<li>\n					<h3><em><img src=\"images/pic04.jpg\" alt=\"\" width=\"140\" height=\"140\" class=\"alignleft border\" /></em>Magna phasellus etiam ultrices</h3>\n					<p>Ut vel nisl tristique justo ornare iaculis. Suspendisse suscipit, orci ac interdum viverra, nulla orci facilisis mi, a ultrices mi lectus vitae felis. Morbi suscipit adipiscing orci et blandit. Morbi a nulla ut tellus blandit placerat a quis eros.</p>\n					<a href=\"#\">Read More</a>\n				</li>\n			</ul>\n		</div>\n		<div id=\"sidebar\">\n			<div class=\"box1\">\n				<div class=\"title\">\n					<h2>Integer gravida</h2>\n				</div>\n				<ul class=\"list-style1\">\n					<li class=\"first\">\n						<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus, cursus egestas at sem. </p>\n						<p><a href=\"#\" class=\"link-style\">Read More</a></p>\n					</li>\n					<li>\n						<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus  at sem. Suspendisse suscipit, orci ac interdum viverra.</p>\n						<p><a href=\"#\" class=\"link-style\">Read More</a></p>\n					</li>\n				</ul>\n			</div>\n			<div class=\"box2\">\n				<div class=\"title\">\n					<h2>pendisse suscipit</h2>\n				</div>\n				<ul class=\"style2\">\n					<li><a href=\"#\">Amet turpis, feugiat et sit amet</a></li>\n					<li><a href=\"#\">Ornare in hendrerit in lectus</a></li>\n					<li><a href=\"#\">Semper mod quis eget mi dolore</a></li>\n					<li><a href=\"#\">Quam turpis feugiat sit dolor</a></li>\n					<li><a href=\"#\">Amet ornare in hendrerit in lectus</a></li>\n					<li><a href=\"#\">Quam turpis feugiat sit dolor</a></li>\n					<li><a href=\"#\">Consequat etiam lorem phasellus</a></li>\n				</ul>\n			</div>\n		</div>\n	</div>\n  -->\n</div>\n</div>\n<div id=\"copyright\" class=\"container\">\n	<p>Copyright (c) 2013 Sitename.com. All rights reserved. | Photos by <a href=\"http://fotogrph.com/\">Fotogrph</a> | Design by <a href=\"http://www.freecsstemplates.org/\" rel=\"nofollow\">FreeCSSTemplates.org</a>.</p>\n</div>\n</body>\n</html>",
 			"file": "flootut.html",
+			"file_size": 101,
+			"file_write_time": 130388870479569789,
 			"settings":
 			{
-				"buffer_size": 101,
+				"buffer_size": 6510,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.php",
+			"file": "index2.html",
 			"settings":
 			{
-				"buffer_size": 16198,
+				"buffer_size": 772,
 				"line_ending": "Unix"
 			}
 		}
@@ -47,9 +50,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 369.0,
 		"selected_items":
 		[
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
 			[
 				"pref",
 				"Preferences: Settings - User"
@@ -71,10 +82,6 @@
 				"Floobits - Summon Everyone"
 			],
 			[
-				"list",
-				"Package Control: List Packages"
-			],
-			[
 				"install",
 				"Package Control: Install Package"
 			],
@@ -83,7 +90,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 476.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -104,6 +111,9 @@
 	},
 	"file_history":
 	[
+		"/home/adrian/public_html/license.txt",
+		"/home/adrian/public_html/fonts.css",
+		"/home/adrian/public_html/index.php",
 		"/home/adrian/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/media/sf_LinuxFiles/cs44/labs/1_floo/buffer.cpp",
 		"/media/sf_LinuxFiles/cs44/labs/1_floo/bufferHashTable.h",
@@ -177,17 +187,130 @@
 	"groups":
 	[
 		{
-			"sheets":
-			[
-			]
-		},
-		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
 					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								216,
+								216
+							]
+						],
+						"settings":
+						{
+							"highlight_line": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_input_parsers":
+								[
+								],
+								"action": null,
+								"action_count": "",
+								"capture_register": false,
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"repeat_data":
+								[
+									"vi",
+									"<C-a>",
+									"mode_internal_normal",
+									null
+								],
+								"sequence": "",
+								"user_input": "",
+								"xpos": 107
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "flootut.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_input_parsers":
+								[
+								],
+								"action": null,
+								"action_count": "",
+								"capture_register": false,
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"repeat_data":
+								[
+									"vi",
+									"\"*p",
+									"mode_normal",
+									null
+								],
+								"sequence": "",
+								"user_input": "",
+								"xpos": 6
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index2.html",
 					"semi_transient": false,
 					"settings":
 					{
@@ -230,98 +353,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "flootut.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 101,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"vintage":
-							{
-								"_vintageous_input_parsers":
-								[
-								],
-								"action": null,
-								"action_count": "",
-								"capture_register": false,
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"user_input": "",
-								"xpos": 0
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 16198,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"vintage":
-							{
-								"_vintageous_input_parsers":
-								[
-								],
-								"action": null,
-								"action_count": "",
-								"capture_register": false,
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"user_input": "",
-								"xpos": 0
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -406,7 +437,7 @@
 	"settings":
 	{
 		"_vintageous_last_buffer_search": "enotopen",
-		"_vintageous_last_character_search": "j",
+		"_vintageous_last_character_search": ">",
 		"_vintageous_last_character_search_forward": true,
 		"_vintageous_recording_macro": true,
 		"_vintageous_reset_during_init": true,
@@ -419,7 +450,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 188.0,
 	"status_bar_visible": true,
 	"template_settings":
