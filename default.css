@@ -283,7 +283,7 @@ ul.contact li a.icon-rss:before
  
 .container 
 { 
-	width: auto; 
+	width: 80%; 
 	margin: 0px auto; 
 } 
  
@@ -544,13 +544,13 @@ ul.contact li a.icon-rss:before
 	color: #EEA7C1; 
 } 
  
-#column1,  #column2,  #column3,  #column4 
+#column1,  #column2,  #column3
 { 
-	width: 22%; 
+	width: 30%; 
 	float: left;
 } 
  
-#column1,  #column2, #column3
+#column1,  #column2
 { 
 	margin-right: 24px; 
 } 
