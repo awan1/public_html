@@ -14,23 +14,6 @@ Released   : 20130707
 --> 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
- <script type="text/javascript" src="https://raw.github.com/mozilla/pdf.js/gh-pages/build/pdf.js"></script>
-  <script type="text/javascript">
-    var url = "files/resume.pdf";
-    PDFJS.disableWorker = true;
-    PDFJS.getDocument(url).then(function getPdfHelloWorld(pdf) {
-      pdf.getPage(1).then(function getPageHelloWorld(page) {
-        var scale = 1.5;
-        var viewport = page.getViewport(scale);
-        var canvas = document.getElementById('the-canvas');
-        var context = canvas.getContext('2d');
-        canvas.height = viewport.height;
-        canvas.width = viewport.width;
-        page.render({canvasContext: context, viewport: viewport});
-      });
-    });
-  </script>
-
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
 <title>Resum&eacute; - Adrian Wan</title> 
@@ -63,9 +46,10 @@ Released   : 20130707
 			</div> 
 		</div> 
 	</div> 
-	<div id="page" class="container">
-	  <canvas id="the-canvas"></canvas>
-	</div>
+	<h1>
+	<a href="./web/viewer.html?file=resume.pdf">Click to View</a>
+	</h1>
+	<p>I apologize that this isn't embedded yet. If you know how to play nice with pdf.js let me know.</p>
 </div> 
 </div> 
 <div id="copyright" class="container"> 
