@@ -76,15 +76,20 @@ Released   : 20130707
         </li>
         <li>
         	<h2 id="instl">Be Sublime, my friend</h2>
-          <p>First, download <a href="http://www.sublimetext.com/3">Sublime Text 3</a> as a tarball using the Ubuntu 64 bit version (I use Sublime 3 because <a href="https://sublime.wbond.net/packages/Vintageous">Vintageous</a> (a plugin implementing VIM functionality - more on this later) is a Sublime 3 plugin. If it matters to you, go ahead and do all this for Sublime 2. No guarantees about how well this will work though). Save this somewhere that you can find - your home directory or your Desktop is fine.</p>
+          <p>Sublime is capable of so many things, and I guarantee you'll keep discovering things that you can do with it. For now, let's get set up with your own personal copy of Sublime.</p>
+          <p>Sublime is not free: there is an unlimited trial period, but an individual license costs about $70. In effect this means that you can keep using Sublime until you fall deeply enough in love with it to buy a license.</p>
+          <br>
+
+          <h3>Installation</h3>
+          <p>First, download <a href="http://www.sublimetext.com/3">Sublime Text 3</a> as a tarball using the Ubuntu 64 bit version (I use Sublime 3 in this tutorial. If it matters to you, go ahead and do all this for Sublime 2. No guarantees about how well this will work though). Save this somewhere that you can find - your home directory or your Desktop is fine.</p>
         	
           <p>If you don't already have a bin directory in your home path, make one now:</p>
           <pre>$ mkdir ~/bin</pre>
           <p>Then move the tarball you downloaded into this folder and un-tar it:</p>
-          <pre>$ cd <br>$ mv sublime_text_3_(...).tar.bz2 ./bin #assuming you downloaded to home <br>$ cd bin<br>$ tar xvjf sublime_text_3_(...).tar.bz2 </pre>
+          <pre>$ cd <br>#assuming you downloaded to home <br>$ mv sublime_text_3_(...).tar.bz2 ./bin <br>$ cd bin<br>$ tar xvjf sublime_text_3_(...).tar.bz2 </pre>
 
           <p>And now you have a fully functional copy of Sublime 3 on your computer! It's in the new <tt>sublime_text_3</tt> directory. Wasn't that easy? </p>
-          <br><br>
+          <br>
 
           <h3>Configuration</h3>
 
@@ -98,7 +103,16 @@ Released   : 20130707
           <pre>$ ln -s sublime_text_3/sublime_text .</pre>
 
           <p>Now <tt>sublime_text</tt> is a command-line-executable command.</p>
-          <p>On most computers, the following error screen pops up when you try to run Sublime:</p>
+
+        </li>
+        <li>
+        	<h2 id="pkg">Package Control</h2>
+          <p>Package Control is what makes Sublime such a great editor. Power users everywhere develop packages that do some task</p>
+          <p>To install Package Control, copy the text in the box <a href="https://sublime.wbond.net/installation">here</a> <em>(make sure you're copying from the Sublime Text 3 tab!)</em>, open the console in Sublime by pressing <kbd>ctrl</kbd>+<kbd>`</kbd> (that's the backtick, the button above <kbd>Tab</kbd>), paste the text in the box, and hit <kbd>Enter</kbd>. Restart Sublime, and it should be installed. Check this by hitting <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> to open up the command palette, and typing <tt>Package Control</tt>. As you type, a long list of commands starting with <tt>Package Control</tt> should show up. If not, make sure you followed the instructions on the <a href="https://sublime.wbond.net/installation">installation page</a> properly. </p>
+
+          <a href="images/subl-floo/package1.png"><img src="images/subl-floo/package1.png" style="float:left" alt="Package Control showing up in the command palette" title="What you should see in the command palette after installing Package Control" Vspace="20px"/></a>
+          <BR CLEAR="all">
+          <p>On most of the lab computers, the following error screen pops up when you try to run Sublime after installing Package Control:</p>
           <pre>
 >> error: Package Control
 >> 
@@ -114,26 +128,43 @@ Released   : 20130707
           <p>To solve this, we simply take the popup window's advice and run Sublime with the extra options given. The easiest way to do this is to define an alias in your <tt>.bashrc</tt> or <tt>.bash_aliases</tt> file: open <tt>~/.bashrc</tt> in your favorite (non-Sublime) editor and add the following line to it somewhere near the other aliases in there:</p>
           <pre>alias subl="LANG=en_US.UTF-8 sublime_text"</pre>
           <p>Then run <tt>$ source ~/.bashrc</tt> to reload the file. Now you should be able to hit <tt>$ subl</tt> to start Sublime.</p>
-
-        </li>
-        <li>
-        	<h2 id="pkg">Package Control</h2>
-          <p>Package Control is what makes Sublime such a great editor. Power users everywhere develop packages that do some task</p>
-          <p>To install Package Control, copy the text in the box <a href="https://sublime.wbond.net/installation">here</a> <em>(make sure you're copying from the Sublime Text 3 tab!)</em>, open the console in Sublime by pressing <kbd>ctrl</kbd>+<kbd>`</kbd> (that's the backtick, the button above <kbd>Tab</kbd>), paste the text in the box, and hit <kbd>Enter</kbd>. Restart Sublime, and it should be installed. Check this by hitting <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> to open up the command palette, and typing "Package control". As you type, a long list of commands starting with "Package control" should show up. If not, make sure you followed the instructions on the <a href="https://sublime.wbond.net/installation">installation page</a> properly. </p>
-
-          <a href="images/subl-floo/package1.png"><img src="images/subl-floo/package1.png" style="float:left" alt="Package Manager showing up in the command palette" title="What you should see after installing Package Manager" Vspace="20px"/></a>
           
         </li>
         <li>
         	<h2 id="floo">Floobits</h2>
-          <p>Now to install Floobits. With Package Control installed, that's easier than pie. Open Package Control with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> then start typing "install" - select <tt>Package Control: Install Packages</tt>. Once Package Control starts up, type <tt>Floobits</tt>, and hit enter. You're done! </p>
-          <p>You'll be prompted to </p>
+          Floobits is the package that allows you to upload files to the cloud and edit them simultaneously from different editors. Let's get you set up.
+          <br><br>
+
+          <h3>Installation</h3>
+          <p>With Package Control installed, installing Floobits easier than pie. Open Package Control with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> then start typing <tt>install</tt> - select <tt>Package Control: Install Packages</tt>. Once Package Control starts up, type <tt>Floobits</tt>, and install the Floobits package. You're done! </p>
+          <p>INSERT IMAGE?</p>
+          <br>
+
+          <h3>Setting up a workspace</h3>
+          <p>Right after you install Floobits, you'll be redirected to make an account with Floobits. bla</p>
+          <p>Now to set up your first workspace. <em>Only one person should do this part!</em> On the Floobits webpage, click <tt>Create a Workspace</tt> up top, and fill in the <tt>Name</tt> field, e.g. <tt>csXX_labY</tt>. Leave the Permissions as they are - "Everyone can view" is the default and this is fine (private workspaces will cost you money). Create the workspace, then in the search for user box, find your partner by username and select them. Hit save. Now your partner can collaborate on this code.</p>
+
+          <a href="images/subl-floo/floo-perms.png"><img src="images/subl-floo/floo-perms.png" style="float:left" alt="Me adding my partner to the workspace" title="Adding my long-suffering partner after creating the workspace" Vspace="20px"/></a>
+          <br>
+
+          <h3>Using the workspace</h3>
+          <p>Now your workspace exists on the Floobits servers. What now? </p>
+          <p>This is where Sublime comes back in. We want to access the workspace from Sublime so that we can edit the code there. <em>One partner should do this part.</em></p>
+          <p>In Sublime, press <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>j</kbd> (or find <tt>Floobits - Join Workspace</tt> in the command palette) to open up the <tt>Workspace URL</tt> bar at the bottom. Fill in the URL with the URL of your nwly-created workspace, e.g. <tt>https://floobits.com/awan/csXX_labY</tt>, and hit enter.</p>
+
+          <img src="images/subl-floo/floo1.png" style="float:left" alt="The Workspace URL bar" title="Entering my workspace URL" Vspace="20px"/>
+
+          <p>The bar will change to prompt you for a local directory. <em>THIS PART IS IMPORTANT.</em> If you have already started on a lab, <em>insert the path of that directory here</em>. This will initialize the workspace with the existing files. Otherwise, just put it somewhere that you'll be able to find it again.</p>
+
+          <img src="images/subl-floo/floo2.png" style="float:left" alt="Saving to a local directory" title="Saving to a local directory with existing files" Vspace="20px"/>
+
+          <p>Now </p>
 
         </li>
         <li>
         	<h2 id="more">More on Sublime</h2>
         	Sublime is getting buckets of love for some really great features:
-          <br><br>
+          <br>
 
         	<h3>Packages</h3>
         	<p>Package Control that we encountered earlier unlocks a wealth of user</p>
