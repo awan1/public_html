@@ -20,11 +20,17 @@ Released   : 20130707
 <meta name="description" content="" />
 <link href="default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="keys.css" type="text/css" />
 <!--[if IE 6]>
 <link href="default_ie6.css" rel="stylesheet" type="text/css" />
 <![endif]-->
 </head>
-<body>
+
+
+<body id="top"> 
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+<script type="text/javascript" src="js/scrollingSidebar.js"></script>
+
 <div id="wrapper">
 	<div id="menu-wrapper">
 		<div id="menu" class="container">
@@ -52,41 +58,118 @@ Released   : 20130707
     		<h2 id="art-title">Floobits & Sublime</h2>
     		<span class="byline">The best way to pair-program since VIM</span>
     	</div>
-    	<p> Under constrtuction</p>
+      <ul class="style3">
+        <li class="first">
+        	<p>Have you ever wished you could write code at the same time as your partner? Now with <a href="http://www.floobits.com">Floobits</a>, that dream is a reality. Floobits is like Google Docs for code: you write code, and it shows up on your partner's screen. Your partner highlights code to talk about a potential syntax problem - you don't have to look away from your screen to see what they're talking about.</p>
+          <p>It gets better. Imagine having Google Docs, but you get to use your own choice of editor. Now imagine a text editor that is pretty much completely customizable, <em>that can type in multiple places at the same time.</em> You've just imagined <a href="http://www.sublimetext.com">Sublime</a>, a Python-based (read: "new and awesome") editor with tons of features, such as auto-completion and code folding. Sublime just so happens to work the best with Floobits, and so this tutorial (which should take 20 minutes tops) will get you set up with both tools.</p> 
 
-    	<h2>test h2</h2>
-    	<h2 id="instl">Installing Sublime</h2>
-    	<h3>Download a tarball</h3>
-    	<h3>Install in home</h3>
-    	<p>This is text</p>
-    	<pre>This is code?</pre>
+          <a href="images/subl-floo/subl-screen.png"><img src="images/subl-floo/subl-screen.png" width="100%" style="float:left" alt="My Sublime 3 setup with two panes, tabs, and a theme on display" title="My Sublime 3 setup" Vspace="20px"/>
+          <br></a>
+        </li>
 
-    	<h2 id="pkg">The Package Manager</h2>
-    	<h2 id="floo">Installing Floobits</h2>
-    	<h2 id="more">More on Sublime</h2>
-    	Sublime is getting buckets of love for some really great features:
-    	<h3>Packages</h3>
-    	<p>The Package Manager that we encountered earlier unlocks a wealth of user</p>
-    	<p>Vintageous, DocBlockr, Vintageous, Themes </p>
 
-    	<h3>Multi-cursors</h3>
-    	<p>Multi-cursoring is what </p>
-    	<br>
-    	<p>For more information, check out the Sublime documentation <a href="http://sublime-text-unofficial-documentation.readthedocs.org/en/sublime-text-3/">here</a>.</p>
+        <li>
+          <h2 id="notes">Notes</h2>
+          <p>I <em>do not</em> recommend Floobits for inexperienced programmers. Floobits is intended to help teams work more efficiently together; it is not meant to help you shirk the responsibility of understanding everything that your partnership does. I recommend that Swat CS students stay away from Floobits until after CS21, CS35, and CS31 - classic one-person-at-a-time pair-programming is the most sure-fire way to learn in those classes.</p>
+          <p>Floobits <em>is not</em> a substitute for careful planning and good top-down design. Floobits is a tool by which <em>good programming</em> can be done more efficiently. Being able to code twice as fast does you no good if it helps you make twice as many errors.</p>
 
+        </li>
+        <li>
+        	<h2 id="instl">Be Sublime, my friend</h2>
+          <p>First, download <a href="http://www.sublimetext.com/3">Sublime Text 3</a> as a tarball using the Ubuntu 64 bit version (I use Sublime 3 because <a href="https://sublime.wbond.net/packages/Vintageous">Vintageous</a> (a plugin implementing VIM functionality - more on this later) is a Sublime 3 plugin. If it matters to you, go ahead and do all this for Sublime 2. No guarantees about how well this will work though). Save this somewhere that you can find - your home directory or your Desktop is fine.</p>
+        	
+          <p>If you don't already have a bin directory in your home path, make one now:</p>
+          <pre>$ mkdir ~/bin</pre>
+          <p>Then move the tarball you downloaded into this folder and un-tar it:</p>
+          <pre>$ cd <br>$ mv sublime_text_3_(...).tar.bz2 ./bin #assuming you downloaded to home <br>$ cd bin<br>$ tar xvjf sublime_text_3_(...).tar.bz2 </pre>
+
+          <p>And now you have a fully functional copy of Sublime 3 on your computer! It's in the new <tt>sublime_text_3</tt> directory. Wasn't that easy? </p>
+          <br><br>
+
+          <h3>Configuration</h3>
+
+          <p>To be able to run Sublime from the command line, two things must be done:</p>
+          <p>1) Check that the bin folder in your home directory is in your PATH. Run</p>
+          <pre>$ echo $PATH</pre>
+          <p>and if you see <tt>/home/(your usrname)/bin</tt> or <tt>$HOME/bin</tt> you're all set. Otherwise, add it to your PATH using</p>
+          <pre>$ export PATH="$HOME/bin:$PATH"</pre>
+
+          <p>2) Make a symbolic link to the executable file in the <tt>bin</tt> folder: in your <tt>~/bin</tt> folder run</p>
+          <pre>$ ln -s sublime_text_3/sublime_text .</pre>
+
+          <p>Now <tt>sublime_text</tt> is a command-line-executable command.</p>
+          <p>On most computers, the following error screen pops up when you try to run Sublime:</p>
+          <pre>
+>> error: Package Control
+>> 
+>> Your system's locale is set to a value that can not handle non-ASCII 
+>> characters. Package Control can not properly work unless this is fixed.
+>> 
+>> On Linux, please reference your distribution's docs for information on properly
+>> setting the LANG environmental variable. As a temporary work-around, you can
+>> launch Sublime Text from the terminal with:
+>> 
+>> LANG=en_US.UTF-8 sublime_text
+          </pre>
+          <p>To solve this, we simply take the popup window's advice and run Sublime with the extra options given. The easiest way to do this is to define an alias in your <tt>.bashrc</tt> or <tt>.bash_aliases</tt> file: open <tt>~/.bashrc</tt> in your favorite (non-Sublime) editor and add the following line to it somewhere near the other aliases in there:</p>
+          <pre>alias subl="LANG=en_US.UTF-8 sublime_text"</pre>
+          <p>Then run <tt>$ source ~/.bashrc</tt> to reload the file. Now you should be able to hit <tt>$ subl</tt> to start Sublime.</p>
+
+        </li>
+        <li>
+        	<h2 id="pkg">Package Control</h2>
+          <p>Package Control is what makes Sublime such a great editor. Power users everywhere develop packages that do some task</p>
+          <p>To install Package Control, copy the text in the box <a href="https://sublime.wbond.net/installation">here</a> <em>(make sure you're copying from the Sublime Text 3 tab!)</em>, open the console in Sublime by pressing <kbd>ctrl</kbd>+<kbd>`</kbd> (that's the backtick, the button above <kbd>Tab</kbd>), paste the text in the box, and hit <kbd>Enter</kbd>. Restart Sublime, and it should be installed. Check this by hitting <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> to open up the command palette, and typing "Package control". As you type, a long list of commands starting with "Package control" should show up. If not, make sure you followed the instructions on the <a href="https://sublime.wbond.net/installation">installation page</a> properly. </p>
+
+          <a href="images/subl-floo/package1.png"><img src="images/subl-floo/package1.png" style="float:left" alt="Package Manager showing up in the command palette" title="What you should see after installing Package Manager" Vspace="20px"/></a>
+          
+        </li>
+        <li>
+        	<h2 id="floo">Floobits</h2>
+          <p>Now to install Floobits. With Package Control installed, that's easier than pie. Open Package Control with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> then start typing "install" - select <tt>Package Control: Install Packages</tt>. Once Package Control starts up, type <tt>Floobits</tt>, and hit enter. You're done! </p>
+          <p>You'll be prompted to </p>
+
+        </li>
+        <li>
+        	<h2 id="more">More on Sublime</h2>
+        	Sublime is getting buckets of love for some really great features:
+          <br><br>
+
+        	<h3>Packages</h3>
+        	<p>Package Control that we encountered earlier unlocks a wealth of user</p>
+        	<p>Vintageous, DocBlockr, Vintageous, Themes, emacs </p>
+          <br>
+
+        	<h3>Multi-cursors</h3>
+        	<p>Multi-cursoring is what </p>
+        	<br>
+        	<p>For more information, check out the Sublime documentation <a href="http://sublime-text-unofficial-documentation.readthedocs.org/en/sublime-text-3/">here</a>.</p>
+
+
+        </li>
+        <li>
+          <h2 id="thanks">Acknowledgments</h2>
+          <p>A huge thank-you to Jeff Knerr, without whom I would still be taking turns with my partner to type. A shout-out to the Matchbot team (Sam, Stella, Rita, and Luis) for introducing me to this in the first place. </p>
+
+
+        </li> 
+
+      </ul>
 
     </div>
-    <div id="sidebar">
+    <div id="sidebar" class="sidebar">
     	<div class="box2">
     	 <div class="title">
     	 	<h2>Contents</h2>
     	 </div> 
     	 <ul class="style2">
     	 	<li><a href="#art-title">Introduction</a></li>
-    	 	<li><a href="#instl">Installing Sublime</a></li>
-    	 	<li><a href="#pkg">The Package Manager</a></li>
-    	 	<li><a href="#floo">Installing Floobits</a></li>
+        <li><a href="#notes">Notes</a></li>
+    	 	<li><a href="#instl">Be Sublime, my friend</a></li>
+    	 	<li><a href="#pkg">Package Control</a></li>
+    	 	<li><a href="#floo">Floobits</a></li>
     	 	<li><a href="#more">More on Sublime</a></li>
+        <li><a href="#thanks">Acknowledgments</a></li>
     	 	<li></li>
     	 	<li><a href="projects.html">Back to Projects</a></li>
     	 </ul>
