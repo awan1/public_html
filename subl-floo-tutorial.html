@@ -61,7 +61,7 @@ Released   : 20130707
       <ul class="style3">
         <li class="first">
         	<p>Have you ever wished you could write code at the same time as your partner? Now with <a href="http://www.floobits.com">Floobits</a>, that dream is a reality. Floobits is like Google Docs for code: you write code, and it shows up on your partner's screen. Your partner highlights code to talk about a potential syntax problem - you don't have to look away from your screen to see what they're talking about.</p>
-          <p>It gets better. Imagine having Google Docs, but you get to use your own choice of editor. Now imagine a text editor that is pretty much completely customizable, <em>that can type in multiple places at the same time.</em> You've just imagined <a href="http://www.sublimetext.com">Sublime</a>, a Python-based (read: "new and awesome") editor with tons of features, such as auto-completion and code folding. Sublime just so happens to work the best with Floobits, and so this tutorial (which should take 20 minutes tops) will get you set up with both tools.</p> 
+          <p>It gets better. Imagine having Google Docs, but you get to use your own choice of editor. Now imagine a text editor that is pretty much completely customizable, <em>that can type in multiple places at the same time.</em> You've just imagined <a href="http://www.sublimetext.com">Sublime</a>, a Python-based (read: "new and awesome") editor with tons of features, such as auto-completion and code folding. Sublime just so happens to work the best with Floobits, and so this tutorial (which should take 30 minutes tops) will get you set up with both tools.</p> 
 
           <a href="images/subl-floo/subl-screen.png"><img src="images/subl-floo/subl-screen.png" width="100%" style="float:left" alt="My Sublime 3 setup with two panes, tabs, and a theme on display" title="My Sublime 3 setup" Vspace="20px"/>
           <br></a>
@@ -72,6 +72,7 @@ Released   : 20130707
           <h2 id="notes">Notes</h2>
           <p>I <em>do not</em> recommend Floobits for inexperienced programmers. Floobits is intended to help teams work more efficiently together; it is not meant to help you shirk the responsibility of understanding everything that your partnership does. I recommend that Swat CS students stay away from Floobits until after CS21, CS35, and CS31 - classic one-person-at-a-time pair-programming is the most sure-fire way to learn in those classes.</p>
           <p>Floobits <em>is not</em> a substitute for careful planning and good top-down design. Floobits is a tool by which <em>good programming</em> can be done more efficiently. Being able to code twice as fast does you no good if it helps you make twice as many errors.</p>
+          <p>Floobits doesn't have version control. Luckily, you can use Floobits with Git pretty easily - point Floobits' local copy to a Git repository (see <tt>Using the workspace</tt> in <a href="#floo">the Floobits section</a>) and you're good to go.</p>
 
         </li>
         <li>
@@ -103,6 +104,7 @@ Released   : 20130707
           <pre>$ ln -s sublime_text_3/sublime_text .</pre>
 
           <p>Now <tt>sublime_text</tt> is a command-line-executable command.</p>
+          <a href="images/subl-floo/subl1.png"><img src="images/subl-floo/subl1.png" style="float:left" alt="Sublime's editor window on first start" title="You've installed Sublime!" Vspace="20px"/></a>
 
         </li>
         <li>
@@ -136,47 +138,87 @@ Released   : 20130707
           <br><br>
 
           <h3>Installation</h3>
-          <p>With Package Control installed, installing Floobits easier than pie. Open Package Control with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> then start typing <tt>install</tt> - select <tt>Package Control: Install Packages</tt>. Once Package Control starts up, type <tt>Floobits</tt>, and install the Floobits package. You're done! </p>
-          <p>INSERT IMAGE?</p>
+          <p>With Package Control installed, installing Floobits easier than pie. Open the command palette with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> then start typing <tt>install</tt> - select <tt>Package Control: Install Packages</tt>. Once Package Control starts up, type <tt>Floobits</tt>, and install the Floobits package. You're done! </p>
+          <img src="images/subl-floo/floo-instl.png" width="100%" style="float:left" alt="Starting Package Control from the command palette" title="After opening the command palette" Vspace="20px"/></a>
+          <img src="images/subl-floo/floo-instl2.png" width="100%" style="float:left" alt="Installing Floobits from Package Control" title="The Floobits Package" Vspace="20px"/></a>
           <br>
 
           <h3>Setting up a workspace</h3>
-          <p>Right after you install Floobits, you'll be redirected to make an account with Floobits. bla</p>
+          <p>Right after you install Floobits, you'll be redirected to make an account with Floobits. Go ahead and follow the instructions on the Floobits page, and your copy of Sublime will be linked to your Floobits account. </p>
           <p>Now to set up your first workspace. <em>Only one person should do this part!</em> On the Floobits webpage, click <tt>Create a Workspace</tt> up top, and fill in the <tt>Name</tt> field, e.g. <tt>csXX_labY</tt>. Leave the Permissions as they are - "Everyone can view" is the default and this is fine (private workspaces will cost you money). Create the workspace, then in the search for user box, find your partner by username and select them. Hit save. Now your partner can collaborate on this code.</p>
 
-          <a href="images/subl-floo/floo-perms.png"><img src="images/subl-floo/floo-perms.png" style="float:left" alt="Me adding my partner to the workspace" title="Adding my long-suffering partner after creating the workspace" Vspace="20px"/></a>
+          <a href="images/subl-floo/floo-perms.png"><img src="images/subl-floo/floo-perms.png" width="100%" style="float:left" alt="Me adding my partner to the workspace" title="Adding my long-suffering partner after creating the workspace" Vspace="20px"/></a>
+          <BR CLEAR="all">
           <br>
 
           <h3>Using the workspace</h3>
           <p>Now your workspace exists on the Floobits servers. What now? </p>
           <p>This is where Sublime comes back in. We want to access the workspace from Sublime so that we can edit the code there. <em>One partner should do this part.</em></p>
-          <p>In Sublime, press <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>j</kbd> (or find <tt>Floobits - Join Workspace</tt> in the command palette) to open up the <tt>Workspace URL</tt> bar at the bottom. Fill in the URL with the URL of your nwly-created workspace, e.g. <tt>https://floobits.com/awan/csXX_labY</tt>, and hit enter.</p>
+          <p>In Sublime, press <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>j</kbd> (or find <tt>Floobits - Join Workspace</tt> in the command palette) to open up the <tt>Workspace URL</tt> bar at the bottom. Fill in the URL with the URL of your newly-created workspace, e.g. <tt>https://floobits.com/awan/csXX_labY</tt>, and hit enter.</p>
 
-          <img src="images/subl-floo/floo1.png" style="float:left" alt="The Workspace URL bar" title="Entering my workspace URL" Vspace="20px"/>
+          <img src="images/subl-floo/floo1.png" width="100%" style="float:left" alt="The Workspace URL bar" title="Entering my workspace URL" Vspace="20px"/>
+          <BR CLEAR="all">
 
           <p>The bar will change to prompt you for a local directory. <em>THIS PART IS IMPORTANT.</em> If you have already started on a lab, <em>insert the path of that directory here</em>. This will initialize the workspace with the existing files. Otherwise, just put it somewhere that you'll be able to find it again.</p>
 
-          <img src="images/subl-floo/floo2.png" style="float:left" alt="Saving to a local directory" title="Saving to a local directory with existing files" Vspace="20px"/>
+          <img src="images/subl-floo/floo2.png" width="100%" style="float:left" alt="Saving to a local directory" title="Saving to a local directory with existing files" Vspace="20px"/>
+          <BR CLEAR="all">
 
-          <p>Now </p>
+          <p>Now in the side-bar you should see your existing files pop up. If not, navigate to <tt>File->Open Folder</tt> and open your lab folder up. Finally, to tell Floobits to sync this to the workspace, right click on the top level folder and choose <tt>Floobits->Add to Workspace</tt>. You should see it upload at the bottom of the screen (where it says <tt>Connected to yourname/workspacename as yourname</tt>). Once this is complete, your files have been added to the Floobits server!</p>
+          <a href="images/subl-floo/floo-new.png"><img src="images/subl-floo/floo-new.png" style="float:left" alt="Existing files appearing in side-bar" title="Existing files in side-bar" Vspace="20px"/></a>
+          <BR CLEAR="all">
+
+          <p>Once this is all done, your partner should Join the workspace as well, and sync it to an empty local directory (syncing it to an existing directory could be fine but it's easier to replace the existing directory with the new Floobits-synced one) following the same steps above. Now test it out - if you are both connected to the workspace, you should be able to see each other's edits on your own screen. Happy coding!</p>
 
         </li>
         <li>
         	<h2 id="more">More on Sublime</h2>
-        	Sublime is getting buckets of love for some really great features:
+        	<p>Sublime is getting buckets of love for some really great features:</p>
           <br>
 
         	<h3>Packages</h3>
-        	<p>Package Control that we encountered earlier unlocks a wealth of user</p>
-        	<p>Vintageous, DocBlockr, Vintageous, Themes, emacs </p>
+        	<p>Package Control that we encountered earlier unlocks a wealth of user-generated packages that have amazing functionality. Pretty much everything is open-source so you can contribute too! And all packages can be installed from inside Sublime using the command palette, so there's no harm in experimenting!</p>
+        	<p>Some really good packages to check out:
+
+          <tt>Vintageous</tt> gives great VIM emulation (so you can use your <a href="http://www.vim-adventures.com">hard-learned</a> VIM movements to the fullest).
+
+          <tt>DocBlockr</tt> implements block commenting functionality.
+
+          Some sweet low-contrast theme like <tt>Solarized</tt> (install <tt>Solarized Toggle</tt> to switch between light and dark Solarized by pressing <kbd>f12</kbd>!) or <tt>Zenburn</tt> makes programming easier on the eyes.
+          </p>
+
+          <p>And if you ever find yourself wishing that some functionality was implemented, do a quick Google search for it. Chances are, there's a package for it.</p>
           <br>
 
         	<h3>Multi-cursors</h3>
-        	<p>Multi-cursoring is what </p>
-        	<br>
+        	<p>Multi-cursoring is the new best thing. Put cursors in multiple locations by holding <kbd>ctrl</kbd> and clicking, or select the next instance of the current highlighted text with <kbd>ctrl</kbd>+<kbd>d</kbd>. Select all instances of the current text with <kbd>alt</kbd>+<kbd>f3</kbd>. Any edits you make will happen at all your cursors simultaneously!</p>
         	<p>For more information, check out the Sublime documentation <a href="http://sublime-text-unofficial-documentation.readthedocs.org/en/sublime-text-3/">here</a>.</p>
 
-
+          <h3>User Preferences</h3>
+          <p>Being built on Python, user preferences are as easy to define as rewriting entries of a Python dictionary. Open up the command palette (<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> is your new best friend), start typing <tt>user</tt> look for <tt>Preferences: Settings - User</tt>. If you select that, you'll open up the preferences file, in which you can define lots of cool things (check out <tt>"caret_style": "phase"</tt>!) that make coding easier on you. Here are my preferences:</p>
+          <pre>{
+  "always_show_minimap_viewport": true,
+  "bold_folder_labels": true,
+  "caret_style": "phase",
+  "color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+  "fade_fold_buttons": false,
+  "font_face": "Courier New",
+  "font_size": 10,
+  "highlight_line": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "rulers":
+  [
+    80
+  ],
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "vintage_start_in_command_mode": true,
+  "vintageous_use_ctrl_keys": true
+}</pre>
+        <p>See what works for you!</p>
         </li>
         <li>
           <h2 id="thanks">Acknowledgments</h2>
