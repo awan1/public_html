@@ -97,8 +97,9 @@ Released   : 20130707
           <p>To be able to run Sublime from the command line, two things must be done:</p>
           <p>1) Check that the bin folder in your home directory is in your PATH. Run</p>
           <pre>$ echo $PATH</pre>
-          <p>and if you see <tt>/home/(your usrname)/bin</tt> or <tt>$HOME/bin</tt> you're all set. Otherwise, add it to your PATH using</p>
-          <pre>$ export PATH="$HOME/bin:$PATH"</pre>
+          <p>and if you see <tt>/home/(your usrname)/bin</tt> or <tt>$HOME/bin</tt> you're all set. Otherwise, open <tt>~/.bashrc</tt> in your favorite (non-Sublime) editor and add this line in there:</p>
+          <pre>export PATH="$HOME/bin:$PATH"</pre>
+          <p>This adds the <tt>~/bin</tt> directory to the system <tt>PATH</tt> variable. You'll need to run <tt>$ source ~/.bashrc</tt> on the command line to reload the <tt>.bashrc</tt> file.</p>
 
           <p>2) Make a symbolic link to the executable file in the <tt>bin</tt> folder: in your <tt>~/bin</tt> folder run</p>
           <pre>$ ln -s sublime_text_3/sublime_text .</pre>
@@ -139,7 +140,7 @@ Released   : 20130707
           <br><br>
 
           <h3>Installation</h3>
-          <p>With Package Control installed, installing Floobits easier than pie. Open the command palette with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> then start typing <tt>install</tt> - select <tt>Package Control: Install Packages</tt>. Once Package Control starts up, type <tt>Floobits</tt>, and install the Floobits package. You're done! </p>
+          <p>With Package Control installed, installing Floobits is easier than pie. Open the command palette with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> then start typing <tt>install</tt> - select <tt>Package Control: Install Packages</tt>. Once Package Control starts up, type <tt>Floobits</tt>, and install the Floobits package. You're done! </p>
           <img src="images/subl-floo/floo-instl.png" style="float:left" alt="Starting Package Control from the command palette" title="After opening the command palette" Vspace="20px"/></a>
           <BR CLEAR="all">
           <img src="images/subl-floo/floo-instl2.png" style="float:left" alt="Installing Floobits from Package Control" title="The Floobits Package" Vspace="20px"/></a>
@@ -147,7 +148,10 @@ Released   : 20130707
 
           <h3>Setting up a workspace</h3>
           <p>Right after you install Floobits, you'll be redirected to make an account with Floobits. Go ahead and follow the instructions on the Floobits page, and your copy of Sublime will be linked to your Floobits account. </p>
-          <p>Now to set up your first workspace. <em>Only one person should do this part!</em> On the Floobits webpage, click <tt>Create a Workspace</tt> up top, and fill in the <tt>Name</tt> field, e.g. <tt>csXX_labY</tt>. Leave the Permissions as they are - "Everyone can view" is the default and this is fine (private workspaces will cost you money). Create the workspace, then in the search for user box, find your partner by username and select them. Hit save. Now your partner can collaborate on this code.</p>
+
+          <p>Once you've made an account, there's one more thing to do. By default, free accounts can only make public workspaces. This means that your code is visible to anyone on the Internet, even if they don't have a Floobits account. That's no good! Luckily, Floobits offers 3 private workspaces for free for users with a .edu account. Follow <a href="https://floobits.com/edu">this link</a> to link your Floobits account with your @swat account, and rack up 3 free private workspaces!</p>
+
+          <p>Now to set up your first workspace. <em>Only one person should do this part!</em> On the Floobits webpage, click <tt>Create a Workspace</tt> up top, and fill in the <tt>Name</tt> field, e.g. <tt>csXX_labY</tt>. Check "Secret" and uncheck all the "Everyone can" boxes (see the image below). Create the workspace, then in the search for user box, find your partner by username and select them. Hit save. Now your partner can collaborate on this code.</p>
 
           <a href="images/subl-floo/floo-perms.png"><img src="images/subl-floo/floo-perms.png" width="100%" style="float:left" alt="Me adding my partner to the workspace" title="Adding my long-suffering partner after creating the workspace" Vspace="20px"/></a>
           <BR CLEAR="all">
@@ -171,6 +175,9 @@ Released   : 20130707
           <BR CLEAR="all">
 
           <p>Once this is all done, your partner should Join the workspace as well, and sync it to an empty local directory (syncing it to an existing directory could be fine but it's easier to replace the existing directory with the new Floobits-synced one) following the same steps above. Now test it out - if you are both connected to the workspace, you should be able to see each other's edits on your own screen. Happy coding!</p>
+
+          <h3>Subsequent Projects</h3>
+          <p>If you enjoyed using Floobits and Sublime for pair-programming, you'll want to keep hosting your lab projects on Floobits workspaces. However, unless you pay for more, students only get 3 private workspaces total. I recommend deleting the workspace from the Floobits website after you've handed your lab files in. This frees up space for a new project, and doesn't change any local files offline - it just stops you from editing the same files at the same time online.</p>
 
         </li>
         <li>
@@ -224,7 +231,7 @@ Released   : 20130707
         </li>
         <li>
           <h2 id="thanks">Acknowledgments</h2>
-          <p>A huge thank-you to Jeff Knerr, without whom I would still be taking turns with my partner to type. A shout-out to the Matchbot team (Sam, Stella, Rita, and Luis) for introducing me to this in the first place. </p>
+          <p>A huge thank-you to Jeff Knerr for his feedback and help with the .edu accounts, without whom I would still be taking turns with my partner to type. A shout-out to the Matchbot team (Sam, Stella, Rita, and Luis) for introducing me to this in the first place. </p>
 
 
         </li> 

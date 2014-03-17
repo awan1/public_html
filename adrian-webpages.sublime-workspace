@@ -63,7 +63,7 @@
 			"file": "subl-floo-tutorial.html",
 			"settings":
 			{
-				"buffer_size": 18221,
+				"buffer_size": 19545,
 				"line_ending": "Unix"
 			}
 		},
@@ -376,8 +376,8 @@
 						"selection":
 						[
 							[
-								1734,
-								1734
+								377,
+								377
 							]
 						],
 						"settings":
@@ -409,7 +409,7 @@
 								],
 								"sequence": "",
 								"user_input": "",
-								"xpos": 16
+								"xpos": 15
 							}
 						},
 						"translation.x": 0.0,
@@ -639,15 +639,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18221,
+						"buffer_size": 19545,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10365,
-								10365
+								18637,
+								18637
 							]
 						],
 						"settings":
@@ -659,14 +659,16 @@
 							"translate_tabs_to_spaces": true,
 							"vintage":
 							{
-								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_glue_until_normal_mode": true,
+								"_vintageous_gluing_sequence": false,
 								"_vintageous_input_parsers":
 								[
 								],
+								"_vintageous_non_interactive": false,
 								"action": null,
 								"action_count": "",
 								"capture_register": false,
-								"mode": "mode_normal",
+								"mode": "mode_insert",
 								"motion": null,
 								"motion_count": "",
 								"normal_insert_count": "1",
@@ -674,11 +676,11 @@
 								"register": "\"",
 								"sequence": "",
 								"user_input": "",
-								"xpos": 53
+								"xpos": 220
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 2976.0,
+						"translation.y": 5645.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -831,7 +833,7 @@
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "/home/adrian/.config/sublime-text-3/Packages/User"
+			"_cmdline_cd": "/home/adrian/public_html"
 		}
 	},
 	"show_minimap": false,
