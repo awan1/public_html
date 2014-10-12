@@ -3,18 +3,6 @@
 	{
 		"selected_items":
 		[
-			[
-				"calling",
-				"calling_task"
-			],
-			[
-				"buff",
-				"bufferStats"
-			],
-			[
-				"fram",
-				"frameNo"
-			]
 		]
 	},
 	"buffers":
@@ -23,47 +11,24 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3703,
+				"buffer_size": 3740,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "resume.html",
+			"file": "success-in-swat-cs.html",
 			"settings":
 			{
-				"buffer_size": 2478,
-				"line_ending": "Windows"
+				"buffer_size": 8799,
+				"line_ending": "Unix",
+				"name": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Stric"
 			}
 		},
 		{
-			"file": "about.html",
+			"file": "/home/adrian/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 			"settings":
 			{
-				"buffer_size": 3306,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "default.css",
-			"settings":
-			{
-				"buffer_size": 11054,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "fonts.css",
-			"settings":
-			{
-				"buffer_size": 20070,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "projects.html",
-			"settings":
-			{
-				"buffer_size": 3700,
+				"buffer_size": 523,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,15 +36,31 @@
 			"file": "subl-floo-tutorial.html",
 			"settings":
 			{
-				"buffer_size": 19541,
+				"buffer_size": 19555,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "contact.html",
+			"file": "projects.html",
 			"settings":
 			{
-				"buffer_size": 2676,
+				"buffer_size": 4293,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resume.html",
+			"settings":
+			{
+				"buffer_size": 2675,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "about.html",
+			"settings":
+			{
+				"buffer_size": 3499,
 				"line_ending": "Windows"
 			}
 		}
@@ -87,75 +68,55 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 243.0,
+		"height": 306.0,
 		"selected_items":
 		[
 			[
-				"user",
-				"Preferences: Settings - User"
+				"toggle",
+				"SolarizedToggle: Toggle"
 			],
 			[
-				"usr",
+				"solt",
+				"SolarizedToggle: Toggle"
+			],
+			[
+				"user ",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"reset",
 				"Vintageous: Reset"
 			],
 			[
-				"instl",
-				"Package Control: Install Package"
+				"key def",
+				"Preferences: Key Bindings - Default"
 			],
 			[
-				"fold",
-				"Code Folding: Unfold All"
-			],
-			[
-				"use",
-				"Preferences: Settings - User"
-			],
-			[
-				"settings",
-				"Preferences: Settings - Default"
-			],
-			[
-				"list",
-				"Package Control: List Packages"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
-				"pref",
-				"Preferences: Settings - Default"
-			],
-			[
-				"default",
-				"Preferences: Settings - Default"
-			],
-			[
-				"php",
-				"Set Syntax: PHP"
+				"sol togg",
+				"SolarizedToggle: Toggle"
 			],
 			[
 				"minim",
 				"View: Toggle Minimap"
 			],
 			[
-				"sumo",
-				"Floobits - Summon Everyone"
+				"user",
+				"Preferences: Settings - User"
 			],
 			[
-				"summ",
-				"Floobits - Summon Everyone"
+				"usr",
+				"Preferences: Settings - User"
 			],
 			[
-				"sum",
-				"Floobits - Summon Everyone"
+				"list",
+				"Package Control: List Packages"
 			],
 			[
-				"install",
+				"intl",
 				"Package Control: Install Package"
 			],
 			[
-				"instal",
+				"istl",
 				"Package Control: Install Package"
 			]
 		],
@@ -166,7 +127,7 @@
 		"height": 139.0,
 		"history":
 		[
-			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
 		]
 	},
 	"distraction_free":
@@ -178,31 +139,24 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/adrian/LinuxFiles/public_html"
+	],
 	"file_history":
 	[
+		"/home/adrian/LinuxFiles/public_html/README.md",
+		"/home/adrian/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/adrian/LinuxFiles/public_html/default.css",
+		"/home/adrian/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/adrian/LinuxFiles/public_html/keys.css",
+		"/home/adrian/LinuxFiles/public_html/success-in-swat-cs.html",
+		"/home/adrian/LinuxFiles/public_html/contact.html",
+		"/home/adrian/LinuxFiles/public_html/projects.html",
+		"/home/adrian/LinuxFiles/public_html/resume.html",
+		"/home/adrian/LinuxFiles/public_html/subl-floo-tutorial.html",
 		"/home/adrian/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/home/adrian/public_html/fonts.css",
-		"/home/adrian/public_html/stratagem/index.html",
-		"/home/adrian/public_html/js/scrollingSidebar.js",
-		"/home/adrian/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
-		"/home/adrian/public_html/default.css",
-		"/home/adrian/public_html/resume.js",
-		"/home/adrian/public_html/FLOOBITS_README.md",
-		"/home/adrian/public_html/index2.html",
-		"/home/adrian/public_html/flootut.html",
-		"/home/adrian/public_html/license.txt",
-		"/home/adrian/public_html/index.php",
-		"/media/sf_LinuxFiles/cs44/labs/1_floo/buffer.cpp",
-		"/media/sf_LinuxFiles/cs44/labs/1_floo/bufferHashTable.h",
-		"/media/sf_LinuxFiles/cs44/labs/1_floo/bufferHashTable.cpp",
-		"/media/sf_LinuxFiles/cs44/labs/1_floo/main.cpp",
-		"/media/sf_LinuxFiles/cs44/labs/1_floo/buffer.h",
-		"/media/sf_LinuxFiles/cs44/labs/1_floo/test.5",
-		"/media/sf_LinuxFiles/cs44/labs/1_floo/exceptions/invalid_slot_exception.cpp",
-		"/media/sf_LinuxFiles/cs44/labs/1_floo/exceptions/hash_already_present_exception.cpp",
-		"/media/sf_LinuxFiles/cs44/labs/1_floo/exceptions/invalid_page_exception.cpp",
-		"/media/sf_LinuxFiles/cs44/labs/1_floo/bufferHashTable.cpp~",
-		"/home/adrian/floobits/msgs.floobits.log"
+		"/home/adrian/floobits/welcome.md"
 	],
 	"find":
 	{
@@ -210,13 +164,9 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
-			"<open files>",
-			"*",
-			"Open files and folders",
-			""
 		]
 	},
 	"find_state":
@@ -224,65 +174,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"Homepage",
-			"ol",
-			"p",
-			"package1",
-			"width",
-			"style",
-			"floo1",
-			"Package Control\"",
-			"Package control\"",
-			"Manager",
-			"The Package Manager",
-			"the Package Manager",
-			"the package manager",
-			"The Package Manager",
-			"Package Manager",
-			"pre",
-			"<a href=\"#top\">&#8593;Top</a>",
-			"pre",
-			"&#x2190; Top",
-			"Top (USE AN ARROW?)",
-			"header",
-			"strong",
-			"</em>",
-			"<em>",
-			"All rights reserved. Design by <a href=\"http://www.freecsstemplates.org/\"",
-			"| Photos by <a href=\"http://fotogrph.com/\">Fotogrph</a> | ",
-			"h3",
-			"px",
-			"more",
-			"More",
-			"=\"\">",
-			"",
-			"2013 Sitename.com",
-			"ret_task",
-			"bufMgr",
-			"numPin",
-			"flushed",
-			"cur",
-			"file",
-			"load",
-			"pinCnt++",
-			"pinCnt",
-			"in allocPage",
-			"load",
-			"allocateFrame",
-			"//",
-			"allocateFrame",
-			"frame",
-			"cur",
-			"std",
-			"bufferstats",
-			"unpin",
-			"clock",
-			"/**",
-			"allocateFra",
-			"file",
-			"Frame",
-			"frame",
-			"\n  "
+			": host",
+			":",
+			"<",
+			"h3"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -290,19 +185,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"Home",
-			"&#8593;Top",
-			"&#x8593;Top",
-			"&#x2190; Top",
-			"em",
-			"</strong>",
-			"<strong>",
-			"All rights reserved. | Design by <a href=\"http://www.freecsstemplates.org/\"",
-			"",
-			" ",
-			"",
-			"\\n",
-			"2014 Adrian Wan"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -313,7 +195,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -322,15 +204,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3703,
+						"buffer_size": 3740,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1210,
-								1210
+								3001,
+								3001
 							]
 						],
 						"settings":
@@ -342,66 +224,7 @@
 							"vintage":
 							{
 								"_vintageous_glue_until_normal_mode": false,
-								"_vintageous_input_parsers":
-								[
-								],
-								"action": null,
-								"action_count": "",
-								"capture_register": false,
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"normal_insert_count": "1",
-								"partial_sequence": "",
-								"register": "\"",
-								"repeat_data":
-								[
-									"vi",
-									"dl",
-									"mode_normal",
-									null
-								],
-								"sequence": "",
-								"user_input": "",
-								"xpos": 52
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 111.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "resume.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2478,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								464,
-								464
-							]
-						],
-						"settings":
-						{
-							"highlight_line": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"vintage":
-							{
-								"_vintageous_glue_until_normal_mode": false,
 								"_vintageous_gluing_sequence": false,
-								"_vintageous_input_parsers":
-								[
-								],
 								"_vintageous_non_interactive": false,
 								"action": null,
 								"action_count": "",
@@ -414,57 +237,54 @@
 								"register": "\"",
 								"repeat_data":
 								[
-									"native",
+									"vi",
+									"d",
+									"mode_normal",
 									[
-										"_enter_normal_mode",
-										{
-											"from_init": true,
-											"mode": "mode_insert"
-										}
-									],
-									"mode_insert",
-									null
+										8,
+										0,
+										"mode_visual_line"
+									]
 								],
 								"sequence": "",
-								"user_input": "",
-								"xpos": 28
+								"xpos": 0
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 525.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "about.html",
+					"buffer": 1,
+					"file": "success-in-swat-cs.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3306,
+						"buffer_size": 8799,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3050,
-								3050
+								7904,
+								7904
 							]
 						],
 						"settings":
 						{
+							"auto_name": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Stric",
+							"highlight_line": true,
+							"history_list_is_closing": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
 							"vintage":
 							{
 								"_vintageous_glue_until_normal_mode": false,
-								"_vintageous_input_parsers":
-								[
-								],
+								"_vintageous_gluing_sequence": false,
+								"_vintageous_non_interactive": false,
 								"action": null,
 								"action_count": "",
 								"capture_register": false,
@@ -477,144 +297,47 @@
 								"repeat_data":
 								[
 									"vi",
-									"dt<lt>",
+									"d$",
 									"mode_normal",
 									null
 								],
 								"sequence": "",
-								"user_input": "",
-								"xpos": 350
+								"xpos": 129
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 413.0,
+						"translation.y": 1933.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 0,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 3,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 3,
-					"file": "default.css",
+					"buffer": 2,
+					"file": "/home/adrian/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11054,
+						"buffer_size": 523,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1026,
-								1026
+								519,
+								519
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
 							"translate_tabs_to_spaces": false,
 							"vintage":
 							{
 								"_vintageous_glue_until_normal_mode": false,
-								"_vintageous_input_parsers":
-								[
-								],
-								"action": null,
-								"action_count": "",
-								"capture_register": false,
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"normal_insert_count": "1",
-								"partial_sequence": "",
-								"register": "\"",
-								"repeat_data":
-								[
-									"native",
-									[
-										"insert",
-										{
-											"characters": "a"
-										}
-									],
-									"mode_insert",
-									null
-								],
-								"sequence": "",
-								"user_input": "",
-								"xpos": 0
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 1045.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "fonts.css",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 20070,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "projects.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3700,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2410,
-								2410
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": true,
-							"vintage":
-							{
-								"_vintageous_glue_until_normal_mode": false,
-								"_vintageous_input_parsers":
-								[
-								],
+								"_vintageous_gluing_sequence": false,
+								"_vintageous_non_interactive": false,
 								"action": null,
 								"action_count": "",
 								"capture_register": false,
@@ -633,33 +356,27 @@
 											"commands":
 											[
 												[
-													"find_under_expand",
+													"_vi_o",
+													{
+														"count": 1,
+														"mode": "mode_internal_normal"
+													}
+												],
+												[
+													"paste",
 													null
 												],
 												[
-													"find_under_expand",
-													null
-												],
-												[
-													"find_under_expand",
-													null
-												],
-												[
-													"find_under_expand",
-													null
-												],
-												[
-													"find_under_expand",
-													null
-												],
-												[
-													"find_under_expand",
-													null
+													"move_to",
+													{
+														"extend": false,
+														"to": "bol"
+													}
 												],
 												[
 													"insert",
 													{
-														"characters": "tt"
+														"characters": "u"
 													}
 												]
 											]
@@ -669,38 +386,42 @@
 									null
 								],
 								"sequence": "",
-								"user_input": "",
-								"xpos": 8
+								"xpos": 33
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 192.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
 				{
-					"buffer": 6,
+					"buffer": 3,
 					"file": "subl-floo-tutorial.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19541,
+						"buffer_size": 19555,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1513,
-								1513
+								56,
+								56
 							]
 						],
 						"settings":
 						{
-							"highlight_line": true,
-							"spell_check": false,
+							"history_list_is_closing": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
@@ -708,9 +429,6 @@
 							{
 								"_vintageous_glue_until_normal_mode": false,
 								"_vintageous_gluing_sequence": false,
-								"_vintageous_input_parsers":
-								[
-								],
 								"_vintageous_non_interactive": false,
 								"action": null,
 								"action_count": "",
@@ -721,56 +439,40 @@
 								"normal_insert_count": "1",
 								"partial_sequence": "",
 								"register": "\"",
-								"repeat_data":
-								[
-									"native",
-									[
-										"",
-										null
-									],
-									null,
-									null
-								],
 								"sequence": "",
-								"user_input": "",
-								"xpos": 19
+								"xpos": 56
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 480.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "contact.html",
+					"buffer": 4,
+					"file": "projects.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2676,
+						"buffer_size": 4293,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2348,
-								2348
+								3893,
+								3893
 							]
 						],
 						"settings":
 						{
-							"highlight_line": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false,
 							"vintage":
 							{
 								"_vintageous_glue_until_normal_mode": false,
-								"_vintageous_input_parsers":
-								[
-								],
 								"action": null,
 								"action_count": "",
 								"capture_register": false,
@@ -780,23 +482,112 @@
 								"normal_insert_count": "1",
 								"partial_sequence": "",
 								"register": "\"",
-								"repeat_data":
-								[
-									"vi",
-									"r2",
-									"mode_normal",
-									null
-								],
 								"sequence": "",
-								"user_input": "",
-								"xpos": 4
+								"xpos": 25
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 157.0,
+						"translation.y": 768.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "resume.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2675,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2519,
+								2519
+							]
+						],
+						"settings":
+						{
+							"highlight_line": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"capture_register": false,
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"partial_sequence": "",
+								"register": "\"",
+								"repeat_data":
+								[
+									"vi",
+									"d",
+									"mode_normal",
+									[
+										3,
+										0,
+										"mode_visual_line"
+									]
+								],
+								"sequence": "",
+								"xpos": 28
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 560.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3260,
+								3260
+							]
+						],
+						"settings":
+						{
+							"highlight_line": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"capture_register": false,
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 320
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 528.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -808,7 +599,7 @@
 	},
 	"input":
 	{
-		"height": 32.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -840,10 +631,6 @@
 		]
 	},
 	"menu_visible": true,
-	"output.exec":
-	{
-		"height": 106.0
-	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -851,7 +638,7 @@
 	"project": "adrian-webpages.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -859,16 +646,32 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"resum",
+				"resume.html"
+			],
+			[
+				"proj",
+				"projects.html"
+			],
+			[
+				"about",
+				"about.html"
+			],
+			[
+				"css",
+				"default.css"
+			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -878,11 +681,12 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
-		"_vintageous_last_buffer_search": "padding",
-		"_vintageous_last_char_search_command": "vi_t",
-		"_vintageous_last_character_search": "<lt>",
+		"_vintageous_last_buffer_search": "column2",
+		"_vintageous_last_char_search_command": "vi_f",
+		"_vintageous_last_character_search": "<",
 		"_vintageous_last_macro":
 		[
 		],
@@ -890,14 +694,14 @@
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "/home/adrian/public_html"
+			"_cmdline_cd": "/home/adrian/.config/sublime-text-3/Packages"
 		}
 	},
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 188.0,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
