@@ -19,7 +19,7 @@
 			"file": "success-in-swat-cs.html",
 			"settings":
 			{
-				"buffer_size": 8799,
+				"buffer_size": 14903,
 				"line_ending": "Unix",
 				"name": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Stric"
 			}
@@ -28,7 +28,7 @@
 			"file": "/home/adrian/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 			"settings":
 			{
-				"buffer_size": 523,
+				"buffer_size": 522,
 				"line_ending": "Unix"
 			}
 		},
@@ -263,15 +263,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8799,
+						"buffer_size": 14903,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7904,
-								7904
+								9386,
+								9386
 							]
 						],
 						"settings":
@@ -280,6 +280,8 @@
 							"highlight_line": true,
 							"history_list_is_closing": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
 							"vintage":
 							{
 								"_vintageous_glue_until_normal_mode": false,
@@ -297,16 +299,16 @@
 								"repeat_data":
 								[
 									"vi",
-									"d$",
+									"dw",
 									"mode_normal",
 									null
 								],
 								"sequence": "",
-								"xpos": 129
+								"xpos": 329
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 1933.0,
+						"translation.y": 1839.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -318,7 +320,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 523,
+						"buffer_size": 522,
 						"regions":
 						{
 						},
@@ -506,8 +508,8 @@
 						"selection":
 						[
 							[
-								2519,
-								2519
+								1443,
+								1443
 							]
 						],
 						"settings":
@@ -536,11 +538,11 @@
 									]
 								],
 								"sequence": "",
-								"xpos": 28
+								"xpos": 18
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 560.0,
+						"translation.y": 368.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -595,7 +597,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -684,9 +686,9 @@
 	"selected_group": 0,
 	"settings":
 	{
-		"_vintageous_last_buffer_search": "column2",
+		"_vintageous_last_buffer_search": "want",
 		"_vintageous_last_char_search_command": "vi_f",
-		"_vintageous_last_character_search": "<",
+		"_vintageous_last_character_search": ".",
 		"_vintageous_last_macro":
 		[
 		],
@@ -694,7 +696,7 @@
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "/home/adrian/.config/sublime-text-3/Packages"
+			"_cmdline_cd": "/home/adrian/LinuxFiles/public_html"
 		}
 	},
 	"show_minimap": false,
