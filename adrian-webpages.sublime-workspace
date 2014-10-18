@@ -25,14 +25,6 @@
 			}
 		},
 		{
-			"file": "/home/adrian/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 522,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "subl-floo-tutorial.html",
 			"settings":
 			{
@@ -52,7 +44,7 @@
 			"file": "resume.html",
 			"settings":
 			{
-				"buffer_size": 2675,
+				"buffer_size": 2609,
 				"line_ending": "Windows"
 			}
 		},
@@ -141,10 +133,11 @@
 	},
 	"expanded_folders":
 	[
-		"/home/adrian/LinuxFiles/public_html"
+		"/home/awan1/public_html"
 	],
 	"file_history":
 	[
+		"/home/adrian/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/adrian/LinuxFiles/public_html/README.md",
 		"/home/adrian/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/adrian/LinuxFiles/public_html/default.css",
@@ -155,7 +148,6 @@
 		"/home/adrian/LinuxFiles/public_html/projects.html",
 		"/home/adrian/LinuxFiles/public_html/resume.html",
 		"/home/adrian/LinuxFiles/public_html/subl-floo-tutorial.html",
-		"/home/adrian/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/adrian/floobits/welcome.md"
 	],
 	"find":
@@ -254,7 +246,7 @@
 						"translation.y": 525.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -304,98 +296,14 @@
 									null
 								],
 								"sequence": "",
-								"xpos": 329
+								"xpos": 262
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 1839.0,
+						"translation.y": 1295.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/adrian/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 522,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								519,
-								519
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"vintage":
-							{
-								"_vintageous_glue_until_normal_mode": false,
-								"_vintageous_gluing_sequence": false,
-								"_vintageous_non_interactive": false,
-								"action": null,
-								"action_count": "",
-								"capture_register": false,
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"normal_insert_count": "1",
-								"partial_sequence": "",
-								"register": "\"",
-								"repeat_data":
-								[
-									"native",
-									[
-										"sequence",
-										{
-											"commands":
-											[
-												[
-													"_vi_o",
-													{
-														"count": 1,
-														"mode": "mode_internal_normal"
-													}
-												],
-												[
-													"paste",
-													null
-												],
-												[
-													"move_to",
-													{
-														"extend": false,
-														"to": "bol"
-													}
-												],
-												[
-													"insert",
-													{
-														"characters": "u"
-													}
-												]
-											]
-										}
-									],
-									"mode_insert",
-									null
-								],
-								"sequence": "",
-								"xpos": 33
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -405,7 +313,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "subl-floo-tutorial.html",
 					"semi_transient": false,
 					"settings":
@@ -453,7 +361,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "projects.html",
 					"semi_transient": false,
 					"settings":
@@ -496,20 +404,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "resume.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2675,
+						"buffer_size": 2609,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1443,
-								1443
+								819,
+								819
 							]
 						],
 						"settings":
@@ -518,38 +426,125 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"vintage":
 							{
+								"_vintageous_glue_until_normal_mode": false,
 								"action": null,
 								"action_count": "",
 								"capture_register": false,
 								"mode": "mode_normal",
 								"motion": null,
 								"motion_count": "",
+								"normal_insert_count": "1",
 								"partial_sequence": "",
 								"register": "\"",
 								"repeat_data":
 								[
-									"vi",
-									"d",
-									"mode_normal",
+									"native",
 									[
-										3,
-										0,
-										"mode_visual_line"
-									]
+										"sequence",
+										{
+											"commands":
+											[
+												[
+													"move",
+													{
+														"by": "words",
+														"forward": false
+													}
+												],
+												[
+													"move",
+													{
+														"by": "words",
+														"forward": false
+													}
+												],
+												[
+													"delete_word",
+													{
+														"forward": false
+													}
+												],
+												[
+													"delete_word",
+													{
+														"forward": false
+													}
+												],
+												[
+													"delete_word",
+													{
+														"forward": false
+													}
+												],
+												[
+													"delete_word",
+													{
+														"forward": false
+													}
+												],
+												[
+													"delete_word",
+													{
+														"forward": false
+													}
+												],
+												[
+													"delete_word",
+													{
+														"forward": false
+													}
+												],
+												[
+													"delete_word",
+													{
+														"forward": false
+													}
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"left_delete",
+													null
+												],
+												[
+													"insert",
+													{
+														"characters": "./files/"
+													}
+												]
+											]
+										}
+									],
+									"mode_insert",
+									null
 								],
 								"sequence": "",
-								"xpos": 18
+								"xpos": 24
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 368.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "about.html",
 					"semi_transient": false,
 					"settings":
@@ -683,7 +678,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 		"_vintageous_last_buffer_search": "want",
