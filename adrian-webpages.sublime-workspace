@@ -25,14 +25,6 @@
 			}
 		},
 		{
-			"file": "/home/adrian/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 522,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "subl-floo-tutorial.html",
 			"settings":
 			{
@@ -49,10 +41,13 @@
 			}
 		},
 		{
+			"contents": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<!-- \nTEMPLATE DESCRIPTION \n~~~~~~~~~~~~~~~~~~~~ \nDesign by Free CSS Templates \nhttp://www.freecsstemplates.org \nReleased for free under a Creative Commons Attribution 2.5 License \n \nName       : Stratagem  \nDescription: A two-column, fixed-width design with dark color scheme. \nVersion    : 1.0 \nReleased   : 20130707\n \n--> \n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<head> \n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /> \n<title>Resum&eacute; - Adrian Wan</title> \n<meta name=\"keywords\" content=\"\" /> \n<meta name=\"description\" content=\"\" /> \n<link href=\"default.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" /> \n<link href=\"fonts.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" /> \n<!--[if IE 6]> \n<link href=\"default_ie6.css\" rel=\"stylesheet\" type=\"text/css\" /> \n<![endif]--> \n</head> \n<body> \n<div id=\"wrapper\"> \n	<div id=\"menu-wrapper\"> \n		<div id=\"menu\" class=\"container\"> \n			<ul> \n				<li><a href=\"index.html\">Home</a></li> \n				<li><a href=\"about.html\">About</a></li> \n				<li><a href=\"projects.html\">Projects</a></li> \n				<li class=\"current_page_item\"><a href=\"#\">Resum&eacute;</a></li> \n				<li><a href=\"contact.html\">Contact</a></li> \n			</ul> \n		</div> \n		<!-- end #menu -->  \n	</div> \n	<div id=\"header-wrapper\"> \n		<div id=\"header\" class=\"container\"> \n			<div id=\"logo\"> \n				<p>Things I've done</p> \n			</div> \n		</div> \n	</div>\n\n	<div id=\"page\" class=\"container\">\n		<h2><a href=\"./web/viewer.html?file=resume.pdf\">My Resum&eacute;</a></h2>\n    <br>\n    <h2>Research: SSX</h2>\n    <p>I was a research assistant (2013-14) at the <a href=\"http://plasma.swarthmore.edu/SSX/index.html\">Swarthmore Spheromak Experiment</a>, where we create and study plasmas to expand our understanding of fundamental plasma physics. Here are some papers that I've co-authored:\n    </p>\n    <ul>\n    <li>\n      PPCF 2014: <a href=\"http://iopscience.iop.org/0741-3335/56/6/064003\"><em>Turbulence analysis of an experimental flux-rope plasma</em></a>\n    </li>\n    <li>\n      PRL 2014: <a href=\"http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.112.165001\"><em>Observation of Turbulent Intermittency Scaling with Magnetic Helicity in an MHD Plasma Wind Tunnel</em></a>\n    </li>\n    </ul>\n\n	</div>\n</div> \n<div id=\"copyright\" class=\"container\"> \n	<p>Copyright (c) 2014 Adrian Wan. All rights reserved. | Design by <a href=\"http://www.freecsstemplates.org/\" rel=\"nofollow\">FreeCSSTemplates.org</a>.</p> \n</div> \n</body> \n</html> \n",
 			"file": "resume.html",
+			"file_size": 2747,
+			"file_write_time": 130571709585513307,
 			"settings":
 			{
-				"buffer_size": 2675,
+				"buffer_size": 2570,
 				"line_ending": "Windows"
 			}
 		},
@@ -145,6 +140,7 @@
 	],
 	"file_history":
 	[
+		"/home/adrian/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/adrian/LinuxFiles/public_html/README.md",
 		"/home/adrian/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/adrian/LinuxFiles/public_html/default.css",
@@ -155,7 +151,6 @@
 		"/home/adrian/LinuxFiles/public_html/projects.html",
 		"/home/adrian/LinuxFiles/public_html/resume.html",
 		"/home/adrian/LinuxFiles/public_html/subl-floo-tutorial.html",
-		"/home/adrian/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/adrian/floobits/welcome.md"
 	],
 	"find":
@@ -254,7 +249,7 @@
 						"translation.y": 525.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -304,98 +299,14 @@
 									null
 								],
 								"sequence": "",
-								"xpos": 329
+								"xpos": 262
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 1839.0,
+						"translation.y": 1855.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/adrian/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 522,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								519,
-								519
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"vintage":
-							{
-								"_vintageous_glue_until_normal_mode": false,
-								"_vintageous_gluing_sequence": false,
-								"_vintageous_non_interactive": false,
-								"action": null,
-								"action_count": "",
-								"capture_register": false,
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"normal_insert_count": "1",
-								"partial_sequence": "",
-								"register": "\"",
-								"repeat_data":
-								[
-									"native",
-									[
-										"sequence",
-										{
-											"commands":
-											[
-												[
-													"_vi_o",
-													{
-														"count": 1,
-														"mode": "mode_internal_normal"
-													}
-												],
-												[
-													"paste",
-													null
-												],
-												[
-													"move_to",
-													{
-														"extend": false,
-														"to": "bol"
-													}
-												],
-												[
-													"insert",
-													{
-														"characters": "u"
-													}
-												]
-											]
-										}
-									],
-									"mode_insert",
-									null
-								],
-								"sequence": "",
-								"xpos": 33
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -405,7 +316,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "subl-floo-tutorial.html",
 					"semi_transient": false,
 					"settings":
@@ -453,7 +364,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "projects.html",
 					"semi_transient": false,
 					"settings":
@@ -496,20 +407,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "resume.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2675,
+						"buffer_size": 2570,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1443,
-								1443
+								1487,
+								1488
 							]
 						],
 						"settings":
@@ -518,38 +429,42 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"vintage":
 							{
+								"_vintageous_glue_until_normal_mode": false,
 								"action": null,
 								"action_count": "",
 								"capture_register": false,
-								"mode": "mode_normal",
+								"mode": "mode_visual",
 								"motion": null,
 								"motion_count": "",
+								"normal_insert_count": "1",
 								"partial_sequence": "",
 								"register": "\"",
 								"repeat_data":
 								[
-									"vi",
-									"d",
-									"mode_normal",
+									"native",
 									[
-										3,
-										0,
-										"mode_visual_line"
-									]
+										"_vi_dd_action",
+										{
+											"count": 1,
+											"mode": "mode_internal_normal"
+										}
+									],
+									"mode_insert",
+									null
 								],
 								"sequence": "",
-								"xpos": 18
+								"xpos": 0
 							}
 						},
 						"translation.x": 0.0,
 						"translation.y": 368.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "about.html",
 					"semi_transient": false,
 					"settings":
@@ -683,7 +598,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 		"_vintageous_last_buffer_search": "want",
