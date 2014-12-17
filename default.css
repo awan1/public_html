@@ -189,6 +189,19 @@ ul.style3 .first {
 	border-top: none; 
 	box-shadow: none; 
 } 
+
+/** Inline list */
+
+ul.inline {
+	margin: 3em;
+	padding: 0px 0px 0px 0px;
+}
+
+ul.inline li {
+	border-top: none;
+	padding: 0px 0px 1px 0px;
+}
+
 /*********************************************************************************/ 
 /* Social Icon Styles                                                            */ 
 /*********************************************************************************/ 
